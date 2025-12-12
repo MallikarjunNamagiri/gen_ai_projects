@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# Environment variables (IMPORTANT!)
+.env
+.env.local
+*.key
+secrets.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Database
+*.db
+*.sqlite3
+
+# Qdrant data
+qdrant_storage/
+
+# Jupyter Notebook
+.ipynb_checkpoints

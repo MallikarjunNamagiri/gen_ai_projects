@@ -1,0 +1,7 @@
+fastapi
+python-dotenv
+groq
+qdrant-client
+sentence-transformers
+tqdm
+

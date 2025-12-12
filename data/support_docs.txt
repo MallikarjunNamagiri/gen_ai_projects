@@ -1,0 +1,607 @@
+Q: What are your business hours?
+A: We are open Monday through Friday from 9:00 AM to 6:00 PM EST. Weekend support is available through our online help center.
+
+Q: How can I contact customer support?
+A: You can reach us via email at support@example.com, phone at 1-800-555-0123, or through our live chat feature on the website.
+
+Q: Do you offer international shipping?
+A: Yes, we ship to over 150 countries worldwide. Shipping rates and delivery times vary by location.
+
+Q: What payment methods do you accept?
+A: We accept all major credit cards, PayPal, Apple Pay, Google Pay, and bank transfers for orders over $500.
+
+Q: Is my personal information secure?
+A: Absolutely. We use industry-standard SSL encryption and comply with all relevant data protection regulations including GDPR.
+
+Q: How do I create an account?
+A: Click the "Sign Up" button in the top right corner, enter your email address, create a password, and verify your email.
+
+Q: Can I change my email address?
+A: Yes, go to Account Settings, select "Email Preferences," and update your email address. You'll need to verify the new address.
+
+Q: What if I forget my password?
+A: Click "Forgot Password" on the login page, enter your email, and we'll send you a reset link within minutes.
+
+Q: Do you have a mobile app?
+A: Yes, our mobile app is available for both iOS and Android devices. Download it from the App Store or Google Play.
+
+Q: Is there a free trial available?
+A: Yes, we offer a 14-day free trial with full access to all features. No credit card required to start.
+
+
+ACCOUNT & BILLING
+-----------------
+
+Q: How do I update my billing information?
+A: Navigate to Account Settings > Billing, where you can update your payment method and billing address.
+
+Q: When will I be charged?
+A: Subscriptions are billed on the date you signed up each month. You'll receive an invoice via email 3 days before charging.
+
+Q: Can I cancel my subscription at any time?
+A: Yes, you can cancel anytime from your account settings. Your access continues until the end of your billing period.
+
+Q: Do you offer refunds?
+A: We offer a 30-day money-back guarantee for first-time subscribers. Contact support to process your refund.
+
+Q: What happens if my payment fails?
+A: We'll retry the payment three times over 10 days and send email notifications. After that, your account may be suspended.
+
+Q: Can I upgrade or downgrade my plan?
+A: Yes, you can change plans anytime. Upgrades take effect immediately; downgrades take effect at the next billing cycle.
+
+Q: Do you offer discounts for annual subscriptions?
+A: Yes, annual subscribers save 20% compared to monthly billing. The discount is applied automatically at checkout.
+
+Q: Can I get an invoice for my purchase?
+A: Yes, invoices are automatically emailed after each payment. You can also download them from your account dashboard.
+
+Q: Do you offer student or nonprofit discounts?
+A: Yes, we offer 50% discounts for students and nonprofits. Email support@example.com with verification documentation.
+
+Q: What currency do you charge in?
+A: We charge in USD by default, but prices are displayed in your local currency at current exchange rates.
+
+
+PRODUCT INFORMATION
+-------------------
+
+Q: What features are included in the basic plan?
+A: The basic plan includes core functionality, 5GB storage, email support, and access to our mobile app.
+
+Q: What's the difference between the Pro and Premium plans?
+A: Pro includes advanced analytics and 50GB storage. Premium adds priority support, custom integrations, and unlimited storage.
+
+Q: Can I try premium features before upgrading?
+A: Yes, start a free trial of any plan to test all features for 14 days before committing.
+
+Q: Do you offer custom enterprise solutions?
+A: Yes, we provide tailored solutions for organizations with 50+ users. Contact our sales team for more information.
+
+Q: Is there a limit to the number of users I can add?
+A: Basic plan supports 3 users, Pro supports 10, Premium supports 50, and Enterprise has unlimited users.
+
+Q: Can I integrate with other tools?
+A: Yes, we integrate with over 100 popular tools including Slack, Salesforce, Google Workspace, and Microsoft 365.
+
+Q: Do you provide API access?
+A: API access is available on Pro and Premium plans. Documentation is available at developers.example.com.
+
+Q: Is there a storage limit?
+A: Basic has 5GB, Pro has 50GB, Premium has unlimited storage. Additional storage can be purchased separately.
+
+Q: Can I export my data?
+A: Yes, you can export all your data in CSV, JSON, or XML format from the Account Settings page.
+
+Q: Do you offer white-label solutions?
+A: White-label options are available for Enterprise customers. Contact sales for pricing and implementation details.
+
+
+TECHNICAL SUPPORT
+-----------------
+
+Q: What browsers are supported?
+A: We support the latest versions of Chrome, Firefox, Safari, and Edge. Internet Explorer is not supported.
+
+Q: Is the platform mobile-responsive?
+A: Yes, our web platform is fully responsive and optimized for tablets and smartphones.
+
+Q: What are the system requirements?
+A: Any device with a modern browser and internet connection. We recommend at least 4GB RAM for optimal performance.
+
+Q: Why am I experiencing slow performance?
+A: Clear your browser cache, check your internet connection, or try a different browser. Contact support if issues persist.
+
+Q: How do I report a bug?
+A: Use the "Report Issue" button in the help menu, or email bugs@example.com with a description and screenshots.
+
+Q: Do you offer technical training?
+A: Yes, we provide free webinars, video tutorials, and documentation. Premium customers get personalized onboarding sessions.
+
+Q: What if the service is down?
+A: Check status.example.com for real-time updates. We maintain 99.9% uptime and notify users of any scheduled maintenance.
+
+Q: How often do you release updates?
+A: We release minor updates weekly and major feature releases quarterly. All updates are automatic with no downtime.
+
+Q: Can I suggest new features?
+A: Absolutely! Submit feature requests through our feedback portal or vote on existing suggestions from other users.
+
+Q: Do you offer phone support?
+A: Phone support is available for Pro and Premium subscribers during business hours. Basic users have email and chat support.
+
+
+SHIPPING & DELIVERY
+-------------------
+
+Q: How long does shipping take?
+A: Domestic orders arrive in 3-5 business days. International shipping takes 7-14 business days depending on location.
+
+Q: How much does shipping cost?
+A: Domestic shipping is $5.99 for orders under $50, free for orders over $50. International rates vary by destination.
+
+Q: Can I track my order?
+A: Yes, you'll receive a tracking number via email once your order ships. Track it through our website or the carrier's site.
+
+Q: What if my package is lost or damaged?
+A: Contact us immediately. We'll work with the carrier to locate lost packages and replace or refund damaged items.
+
+Q: Do you offer expedited shipping?
+A: Yes, overnight and 2-day shipping options are available at checkout for an additional fee.
+
+Q: Can I change my shipping address after ordering?
+A: Contact us within 2 hours of placing your order. Once shipped, addresses cannot be changed.
+
+Q: Do you ship to PO boxes?
+A: Yes, we ship to PO boxes for standard items. Some large or restricted items may require a physical address.
+
+Q: What carriers do you use?
+A: We ship via USPS, UPS, FedEx, and DHL depending on your location and selected shipping method.
+
+Q: Can I pick up my order locally?
+A: Local pickup is available at our warehouse locations in New York, Los Angeles, and Chicago. Select this option at checkout.
+
+Q: Do you ship on weekends?
+A: Orders placed Friday-Sunday are processed on Monday. Our warehouse operates Monday through Friday only.
+
+
+RETURNS & EXCHANGES
+-------------------
+
+Q: What is your return policy?
+A: We accept returns within 30 days of delivery for a full refund. Items must be unused and in original packaging.
+
+Q: How do I start a return?
+A: Log into your account, go to Order History, select the item, and click "Return Item." Print the prepaid return label.
+
+Q: Who pays for return shipping?
+A: We provide free return shipping for defective items. Customer-initiated returns have a $5.99 return shipping fee.
+
+Q: How long do refunds take?
+A: Refunds are processed within 3-5 business days after we receive your return. Allow 5-7 days for it to appear on your statement.
+
+Q: Can I exchange an item instead of returning it?
+A: Yes, select "Exchange" when initiating your return. We'll ship the replacement as soon as we receive the original item.
+
+Q: What if I received the wrong item?
+A: Contact us immediately with your order number and photos. We'll send the correct item and provide a prepaid return label.
+
+Q: Are there any items that cannot be returned?
+A: Digital products, personalized items, and opened hygiene products cannot be returned due to health and safety regulations.
+
+Q: Can I return a gift?
+A: Yes, gifts can be returned for store credit. The original purchaser would need to request a refund to their payment method.
+
+Q: What if an item is defective?
+A: We'll replace defective items at no cost or provide a full refund including return shipping. Contact us within 30 days.
+
+Q: Do I need the original receipt?
+A: No, returns can be processed using your order number. However, gift returns without order info receive store credit only.
+
+
+PRIVACY & SECURITY
+------------------
+
+Q: How do you protect my data?
+A: We use 256-bit SSL encryption, regular security audits, and compliance with SOC 2 Type II standards.
+
+Q: Do you sell my information to third parties?
+A: Never. We do not sell, rent, or share your personal information. See our Privacy Policy for complete details.
+
+Q: Can I delete my account?
+A: Yes, go to Account Settings > Privacy and select "Delete Account." All your data will be permanently removed within 30 days.
+
+Q: What data do you collect?
+A: We collect information you provide (name, email, payment info) and usage data (login times, features used) to improve our service.
+
+Q: How do I update my privacy settings?
+A: Navigate to Account Settings > Privacy to control data collection, marketing emails, and information sharing preferences.
+
+Q: Do you comply with GDPR?
+A: Yes, we are fully GDPR compliant. EU users have the right to access, correct, and delete their personal data.
+
+Q: Are my credit card details stored?
+A: Payment information is processed through certified PCI-DSS compliant payment processors. We never store full card numbers.
+
+Q: Can I download all my data?
+A: Yes, request a data export from Account Settings. You'll receive a complete copy of your data within 48 hours.
+
+Q: How do you handle data breaches?
+A: We have incident response protocols and will notify affected users within 72 hours as required by law.
+
+Q: Do you use cookies?
+A: Yes, we use cookies to improve user experience. You can manage cookie preferences in your browser settings.
+
+
+TROUBLESHOOTING
+---------------
+
+Q: I can't log into my account. What should I do?
+A: Ensure you're using the correct email and password. Try resetting your password or clearing your browser cache.
+
+Q: Why isn't my uploaded file appearing?
+A: Check the file size (max 100MB) and format. Supported formats include PDF, JPG, PNG, DOCX, and XLSX.
+
+Q: The page won't load. How can I fix this?
+A: Refresh the page, clear your cache, disable browser extensions, or try a different browser or device.
+
+Q: Why am I getting an error message?
+A: Note the error code and message, then check our help center or contact support with the details for assistance.
+
+Q: My notifications aren't working. Help?
+A: Check notification settings in your account and browser. Ensure our website is allowed to send notifications.
+
+Q: I can't find a feature that was there before.
+A: Features sometimes move during updates. Check the help menu or search our documentation. Contact support if needed.
+
+Q: Why is my download failing?
+A: Check your internet connection and available storage space. Try a different browser or download manager.
+
+Q: The mobile app keeps crashing. What now?
+A: Update to the latest version, restart your device, clear the app cache, or reinstall the app.
+
+Q: I'm seeing unexpected charges. Why?
+A: Review your subscription details and invoice history in Account Settings. Contact billing support for clarification.
+
+Q: Why can't I add more users?
+A: You may have reached your plan limit. Upgrade to a higher tier or remove inactive users to add new ones.
+
+
+COLLABORATION & SHARING
+-----------------------
+
+Q: How do I invite team members?
+A: Go to Team Settings, click "Invite Members," enter their email addresses, and assign appropriate permission levels.
+
+Q: Can I control what team members can access?
+A: Yes, assign roles (Admin, Editor, Viewer) with different permission levels for each team member.
+
+Q: How do I share files with external users?
+A: Click "Share" on any file, generate a shareable link, and set permissions (view only or edit access).
+
+Q: Can shared links expire?
+A: Yes, when creating a share link, you can set an expiration date or revoke access anytime from the sharing settings.
+
+Q: How many people can collaborate on a document simultaneously?
+A: Up to 50 users can edit the same document in real-time on Pro and Premium plans.
+
+Q: Can I see who made changes to a document?
+A: Yes, version history shows all changes with timestamps and user names. Restore previous versions anytime.
+
+Q: How do I remove someone from my team?
+A: Go to Team Settings, find the user, and click "Remove." Their access is revoked immediately.
+
+Q: Can I transfer ownership of my account?
+A: Yes, contact support to transfer account ownership. Both parties must verify the transfer for security reasons.
+
+Q: Are comments and feedback tracked?
+A: Yes, all comments are threaded, timestamped, and attributed to specific users. You can resolve or delete comments.
+
+Q: Can external collaborators see all my files?
+A: No, external users only see files explicitly shared with them. Your other content remains private.
+
+
+CUSTOMIZATION
+-------------
+
+Q: Can I customize the interface?
+A: Yes, choose from light or dark mode, adjust font sizes, and rearrange dashboard widgets in Account Settings.
+
+Q: How do I change my notification preferences?
+A: Go to Settings > Notifications to control email, push, and in-app notifications for different events.
+
+Q: Can I create custom templates?
+A: Yes, Premium users can create and save custom templates. Basic and Pro users can use our pre-made template library.
+
+Q: Is there a way to personalize my dashboard?
+A: Drag and drop widgets to rearrange your dashboard. Click "Add Widget" to include additional metrics and tools.
+
+Q: Can I change the language?
+A: Yes, we support 15 languages. Change your language preference in Account Settings > Language.
+
+Q: How do I set up custom workflows?
+A: Use our workflow builder (Premium feature) to create automated processes based on triggers and actions.
+
+Q: Can I brand the platform with my logo?
+A: White-label branding is available for Enterprise customers. Contact sales for customization options.
+
+Q: Are there keyboard shortcuts?
+A: Yes, press "?" or "Ctrl+/" to view all available keyboard shortcuts. You can also customize shortcuts in settings.
+
+Q: Can I create custom reports?
+A: Premium users can build custom reports with our report builder. Select metrics, filters, and visualization types.
+
+Q: How do I set default settings for new projects?
+A: Go to Settings > Defaults to configure templates, permissions, and settings applied to all new projects.
+
+
+TRAINING & RESOURCES
+--------------------
+
+Q: Do you offer training for new users?
+A: Yes, we provide video tutorials, documentation, webinars, and live training sessions for Premium customers.
+
+Q: Where can I find video tutorials?
+A: Visit our Learning Center at learn.example.com for hundreds of video tutorials organized by topic and skill level.
+
+Q: Do you have a user community or forum?
+A: Yes, join our community at community.example.com to ask questions, share tips, and connect with other users.
+
+Q: Can I get certified in using your platform?
+A: Yes, complete our certification program to become a recognized expert. Details at certifications.example.com.
+
+Q: Are there live webinars?
+A: We host free weekly webinars on various topics. Check our events calendar and register at webinars.example.com.
+
+Q: Do you offer one-on-one training?
+A: Premium and Enterprise customers receive personalized onboarding and training sessions with dedicated specialists.
+
+Q: Where is your documentation?
+A: Complete documentation is available at docs.example.com, including guides, API references, and best practices.
+
+Q: Can I download training materials?
+A: Yes, downloadable PDFs, cheat sheets, and quick reference guides are available in our Learning Center.
+
+Q: Do you have case studies?
+A: Yes, read customer success stories and case studies at example.com/customers to see how others use our platform.
+
+Q: Is there a getting started guide?
+A: Yes, new users automatically receive our Quick Start Guide via email and can access it anytime from the help menu.
+
+
+COMPLIANCE & LEGAL
+------------------
+
+Q: What regulations do you comply with?
+A: We comply with GDPR, CCPA, HIPAA (for healthcare customers), SOC 2 Type II, and ISO 27001 standards.
+
+Q: Are you HIPAA compliant?
+A: Yes, we offer HIPAA-compliant services for healthcare organizations. Contact sales for BAA documentation.
+
+Q: Do you have a Service Level Agreement (SLA)?
+A: Yes, Premium and Enterprise customers receive an SLA guaranteeing 99.9% uptime with credits for any downtime.
+
+Q: Where are your servers located?
+A: Our primary data centers are in the US and EU, with backup facilities in Asia-Pacific for redundancy and speed.
+
+Q: Can I get a Data Processing Agreement?
+A: Yes, DPAs are available for all customers. Contact legal@example.com or download from our legal documents page.
+
+Q: Do you conduct security audits?
+A: Yes, we undergo annual third-party security audits and penetration testing. Reports available to Enterprise customers.
+
+Q: What's your data retention policy?
+A: Active account data is retained indefinitely. Deleted account data is purged after 30 days, except where legally required.
+
+Q: Can I request legal documentation?
+A: Yes, Terms of Service, Privacy Policy, and other legal documents are available at example.com/legal.
+
+Q: Do you support single sign-on (SSO)?
+A: Yes, SSO via SAML 2.0 is available for Enterprise customers with providers like Okta, Azure AD, and OneLogin.
+
+Q: Are you SOC 2 certified?
+A: Yes, we maintain SOC 2 Type II certification. Audit reports are available to customers under NDA upon request.
+
+
+ADVANCED FEATURES
+-----------------
+
+Q: How does the automation feature work?
+A: Create automated workflows by setting triggers (like "when file uploaded") and actions (like "send notification").
+
+Q: Can I integrate with custom APIs?
+A: Yes, use webhooks or our REST API to integrate with any service. API documentation at developers.example.com.
+
+Q: What analytics are available?
+A: Track usage metrics, user activity, performance data, and custom KPIs. Export reports in various formats.
+
+Q: Do you support real-time collaboration?
+A: Yes, all document types support real-time editing with live cursors showing where collaborators are working.
+
+Q: Can I schedule automated tasks?
+A: Yes, schedule reports, backups, notifications, and other tasks to run automatically at specified intervals.
+
+Q: Is there a command-line interface?
+A: Yes, CLI tools are available for developers. Install via npm or download from our developer portal.
+
+Q: Can I create custom fields?
+A: Yes, Premium users can add unlimited custom fields to organize and categorize their content.
+
+Q: Do you offer version control?
+A: Yes, automatic version history saves every change. Compare versions, restore previous states, or branch new versions.
+
+Q: Can I set up approval workflows?
+A: Yes, create multi-step approval processes with notifications, due dates, and automatic routing.
+
+Q: Is there a bulk import feature?
+A: Yes, bulk import data via CSV, Excel, or API. Our import wizard helps map fields and validate data.
+
+
+MOBILE APP
+----------
+
+Q: Which platforms support your mobile app?
+A: iOS 13+ and Android 8+ are fully supported. Download from App Store or Google Play.
+
+Q: Can I use all features on mobile?
+A: Most features are available on mobile. Some advanced editing features work best on desktop browsers.
+
+Q: Does the app work offline?
+A: Yes, view and edit content offline. Changes sync automatically when you reconnect to the internet.
+
+Q: How do I enable push notifications?
+A: Grant notification permissions when prompted or enable them in your device's app settings.
+
+Q: Can I upload files from my phone?
+A: Yes, upload photos, videos, and documents directly from your device or cloud storage services.
+
+Q: Why is the app using so much storage?
+A: Downloaded files for offline access use storage. Clear cache in app settings to free up space.
+
+Q: Can I use biometric login?
+A: Yes, enable fingerprint or face recognition in app settings for quick and secure access.
+
+Q: How do I switch between accounts?
+A: Tap your profile picture, then "Switch Account" to toggle between multiple accounts without logging out.
+
+Q: Does the app support tablets?
+A: Yes, the app is optimized for tablets with enhanced layouts for larger screens.
+
+Q: Can I share from other apps?
+A: Yes, use your device's share menu to send content directly to our app from other applications.
+
+
+ENTERPRISE SOLUTIONS
+--------------------
+
+Q: What makes the Enterprise plan different?
+A: Unlimited users, dedicated support, custom integrations, SLA guarantees, advanced security, and volume discounts.
+
+Q: Do you offer dedicated account managers?
+A: Yes, Enterprise customers receive a dedicated Customer Success Manager for ongoing support and strategy.
+
+Q: Can you customize the platform for our needs?
+A: Yes, we offer custom development, integrations, and workflows for Enterprise customers.
+
+Q: What about on-premise deployment?
+A: On-premise and private cloud deployments are available for Enterprise customers with specific requirements.
+
+Q: Do you provide training for large teams?
+A: Yes, we offer comprehensive onboarding, train-the-trainer programs, and ongoing education for Enterprise teams.
+
+Q: Can we get custom contract terms?
+A: Yes, Enterprise agreements can include custom terms, payment schedules, and service commitments.
+
+Q: Is there a minimum user count for Enterprise?
+A: Typically 50+ users, but we're flexible based on your needs and required features. Contact sales to discuss.
+
+Q: Do you offer priority support?
+A: Yes, Enterprise customers get 24/7 priority support with guaranteed response times based on issue severity.
+
+Q: Can we integrate with our existing systems?
+A: Yes, our professional services team helps integrate with CRM, ERP, HR systems, and other enterprise software.
+
+Q: What's your implementation timeline?
+A: Standard Enterprise implementation takes 4-8 weeks, including setup, customization, training, and migration.
+
+
+PERFORMANCE & RELIABILITY
+--------------------------
+
+Q: What's your uptime guarantee?
+A: We maintain 99.9% uptime for Premium and Enterprise customers, backed by our SLA with service credits.
+
+Q: How do you handle peak traffic?
+A: Our infrastructure auto-scales to handle traffic spikes, ensuring consistent performance during high-demand periods.
+
+Q: Are there any usage limits?
+A: Fair use policies apply. Contact us if you have specific high-volume requirements for custom limits.
+
+Q: How often do you back up data?
+A: Continuous real-time replication with automated backups every hour. Point-in-time recovery available for Enterprise customers.
+
+Q: What happens during maintenance windows?
+A: Scheduled maintenance is announced 7 days in advance and typically occurs during low-traffic periods with minimal disruption.
+
+Q: Can I monitor system performance?
+A: Premium users access performance dashboards showing response times, uptime, and system health at status.example.com.
+
+Q: Do you have redundancy?
+A: Yes, multi-region redundancy ensures service continuity even if an entire data center goes offline.
+
+Q: How fast is the platform?
+A: Average page load time is under 1 second. API responses typically complete in 100-300ms.
+
+Q: Can the platform handle large files?
+A: Yes, files up to 5GB are supported. Contact us for specialized needs requiring larger file handling.
+
+Q: What if I need more bandwidth?
+A: Bandwidth scales automatically. Enterprise customers can request dedicated bandwidth for consistent performance.
+
+
+PARTNER & RESELLER
+-------------------
+
+Q: Do you have a partner program?
+A: Yes, we offer referral, reseller, and integration partner programs with competitive commissions and support.
+
+Q: How do I become a reseller?
+A: Apply at partners.example.com. We look for established businesses with relevant customer bases and sales expertise.
+
+Q: What commission do partners earn?
+A: Partners earn 20-30% recurring commission depending on program tier and volume. Details at partners.example.com.
+
+Q: Do you provide partner resources?
+A: Yes, partners access marketing materials, sales tools, training, and dedicated partner support.
+
+Q: Can I white-label your service?
+A: White-label options are available for qualified reseller partners. Custom branding and pricing structures included.
+
+Q: Do you offer co-marketing opportunities?
+A: Yes, we collaborate with partners on webinars, case studies, blog posts, and joint marketing campaigns.
+
+Q: Is there a partner portal?
+A: Yes, partners access a dedicated portal for managing customers, viewing commissions, and accessing resources.
+
+Q: What support do partners receive?
+A: Partners get dedicated partner managers, technical support, sales enablement, and priority assistance.
+
+Q: Can partners access NFR (Not For Resale) licenses?
+A: Yes, qualified partners receive NFR licenses for demonstrations, training, and internal use.
+
+Q: How are partner commissions paid?
+A: Commissions are paid monthly via direct deposit, PayPal, or wire transfer, with detailed statements provided.
+
+
+MIGRATION & ONBOARDING
+-----------------------
+
+Q: Can you help migrate from another platform?
+A: Yes, our migration team assists with data extraction, transformation, and import from most major platforms.
+
+Q: How long does migration take?
+A: Typical migrations complete in 1-3 weeks depending on data volume and complexity. We provide a detailed timeline upfront.
+
+Q: Will there be downtime during migration?
+A: No, migrations happen in parallel. You maintain access to your old system until you're ready to fully switch over.
+
+Q: What data can be migrated?
+A: We migrate files, user accounts, permissions, metadata, workflows, and historical data based on source platform capabilities.
+
+Q: Do you provide migration support?
+A: Yes, dedicated migration specialists guide you through every step with planning, execution, and validation.
+
+Q: Can I test before fully migrating?
+A: Yes, we set up a staging environment where you can test the migration with sample data before committing.
+
+Q: What if something goes wrong during migration?
+A: We create complete backups before migration and can rollback changes if needed. Our team monitors the entire process.
+
+Q: Is there a cost for migration services?
+A: Basic migration assistance is included. Complex migrations requiring extensive customization may have additional fees.
+
+Q: Can users keep their passwords after migration?
+A: Password migration depends on the source system. We typically recommend users reset passwords for security.
+
+Q: Do you help train users after migration?
+A: Yes, post-migration training ensures your team knows how to use new features and adapted workflows effectively.
