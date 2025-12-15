@@ -144,8 +144,26 @@ async def chat(
         except RuntimeError as e:
             logger.error("Vector search failed: %s", e)
             raise HTTPException(status_code=503, detail=str(e))
+
+        # If retrieval returns no results, send a graceful fallback message instead of erroring
         if not results:
-            raise HTTPException(400, "No relevant docs found")
+            fallback_msg = (
+                "I couldn't find any relevant information in the knowledge base for your question. "
+                "Please try rephrasing your query or provide more details."
+            )
+            if format.lower() == "json":
+                return JSONResponse(
+                    content={
+                        "response": fallback_msg,
+                        "query": query,
+                        "sources": [],
+                    }
+                )
+
+            async def _fallback_stream():
+                yield f"data: {fallback_msg}\n\n"
+
+            return StreamingResponse(_fallback_stream(), media_type="text/event-stream")
 
         context = "\n\n".join([r.payload["text"] for r in results])
 
@@ -157,11 +175,19 @@ async def chat(
             # Return JSON response
             try:
                 response_text = await get_llm_response(prompt)
-                return JSONResponse(content={
-                    "response": response_text,
-                    "query": query,
-                    "sources": [{"source": r.payload.get("source", "unknown"), "score": r.score} for r in results]
-                })
+                return JSONResponse(
+                    content={
+                        "response": response_text,
+                        "query": query,
+                        "sources": [
+                            {
+                                "source": r.payload.get("source", "unknown"),
+                                "score": r.score,
+                            }
+                            for r in results
+                        ],
+                    }
+                )
             except RuntimeError as e:
                 logger.error("LLM initialization failed: %s", e)
                 raise HTTPException(status_code=503, detail=str(e))
@@ -173,8 +199,6 @@ async def chat(
                 logger.error("LLM initialization failed: %s", e)
                 raise HTTPException(status_code=503, detail=str(e))
             return StreamingResponse(stream, media_type="text/event-stream")
-    except HTTPException:
-        raise
     except HTTPException:
         raise
     except Exception as e:
