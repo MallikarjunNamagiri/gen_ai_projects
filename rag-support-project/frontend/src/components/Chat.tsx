@@ -109,12 +109,57 @@ export default function Chat() {
     let botContent = "";
     appendMessage(conversationId, { role: "assistant", content: "" });
 
+    // SSE parser: buffer text, split events on '\n\n', extract lines starting with 'data:'
+    let buffer = "";
+    let finished = false;
+
     while (true) {
       const { done, value } = await reader.read();
       if (done) break;
+
       const text = new TextDecoder().decode(value);
-      botContent += text.replace("data: ", "");
-      updateLastAssistantMessage(conversationId, botContent);
+      buffer += text;
+
+      // Process all complete SSE events in the buffer
+      let idx: number;
+      while ((idx = buffer.indexOf("\n\n")) !== -1) {
+        const rawEvent = buffer.slice(0, idx);
+        buffer = buffer.slice(idx + 2);
+
+        // collect all data: lines for this event
+        const lines = rawEvent.split(/\r?\n/);
+        const dataLines = lines
+          .filter((l) => l.startsWith("data:"))
+          .map((l) => l.replace(/^data:\s?/, ""));
+
+        if (dataLines.length === 0) continue;
+
+        const payload = dataLines.join("\n");
+        if (payload.trim() === "[DONE]") {
+          finished = true;
+          break;
+        }
+
+        botContent += payload;
+        updateLastAssistantMessage(conversationId, botContent);
+      }
+
+      if (finished) break;
+    }
+
+    // Flush any remaining data lines if the stream ended without trailing '\n\n'
+    if (!finished && buffer.length > 0) {
+      const lines = buffer.split(/\r?\n/);
+      const dataLines = lines
+        .filter((l) => l.startsWith("data:"))
+        .map((l) => l.replace(/^data:\s?/, ""));
+      if (dataLines.length > 0) {
+        const payload = dataLines.join("\n");
+        if (payload.trim() !== "[DONE]") {
+          botContent += payload;
+          updateLastAssistantMessage(conversationId, botContent);
+        }
+      }
     }
 
     setLoading(false);
@@ -158,11 +203,10 @@ export default function Chat() {
                 <button
                   key={c.id}
                   onClick={() => setActiveId(c.id)}
-                  className={`w-full rounded-md px-3 py-2 text-left transition-colors ${
-                    isActive
+                  className={`w-full rounded-md px-3 py-2 text-left transition-colors ${isActive
                       ? "bg-slate-800 text-slate-50"
                       : "bg-transparent text-slate-300 hover:bg-slate-800/80"
-                  }`}
+                    }`}
                 >
                   <div className="line-clamp-1 text-xs font-medium">
                     {c.title || "Conversation"}
@@ -221,19 +265,17 @@ export default function Chat() {
                     className={`flex w-full ${isUser ? "justify-end" : "justify-start"}`}
                   >
                     <div
-                      className={`flex max-w-[80%] items-end gap-2 ${
-                        isUser ? "flex-row-reverse" : "flex-row"
-                      }`}
+                      className={`flex max-w-[80%] items-end gap-2 ${isUser ? "flex-row-reverse" : "flex-row"
+                        }`}
                     >
                       <Avatar className="h-7 w-7 bg-slate-800/80 text-[11px]">
                         <AvatarFallback>{isUser ? "You" : "AI"}</AvatarFallback>
                       </Avatar>
                       <div
-                        className={`rounded-2xl px-3 py-2 text-sm shadow-sm ${
-                          isUser
+                        className={`rounded-2xl px-3 py-2 text-sm shadow-sm ${isUser
                             ? "bg-slate-50 text-slate-900"
                             : "bg-slate-900/80 text-slate-50 border border-slate-800/80"
-                        }`}
+                          }`}
                       >
                         <p className="whitespace-pre-wrap leading-relaxed">
                           {msg.content}
