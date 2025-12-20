@@ -44,3 +44,4 @@ qdrant_storage/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+.vercel
