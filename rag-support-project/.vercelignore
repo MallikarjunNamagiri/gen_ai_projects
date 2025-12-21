@@ -1,0 +1,19 @@
+# Ignore backend, heavy model files, and local envs to prevent Vercel from building the Python backend
+api/
+scripts/
+data/
+models/
+*.pt
+*.pth
+__pycache__/
+.venv/
+venv/
+*.py
+requirements.txt
+tests/
+.git/
+.env
+*.log
+
+# Keep frontend
+!frontend/
