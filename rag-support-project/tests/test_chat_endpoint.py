@@ -100,3 +100,26 @@ def test_chat_streaming(monkeypatch, test_client):
     assert resp.headers.get("content-type", "").startswith("text/event-stream")
     body = resp.content.decode("utf-8")
     assert "chunk1" in body and "chunk2" in body
+
+
+def test_clarification_streaming_returns_plain_text(monkeypatch, test_client):
+    async def _fake_user():
+        return SimpleNamespace(id="u1", email="u1@example.com")
+
+    main.app.dependency_overrides[main.get_current_user] = _fake_user
+
+    async def fake_embed(q):
+        return [0.0] * 384
+
+    # No search results needed for the clarification path
+    monkeypatch.setattr("api.services.embeddings.get_embedding", fake_embed)
+    monkeypatch.setattr(main, "get_embedding", fake_embed)
+
+    # Send a greeting which should trigger the clarification/greeting branch
+    resp = test_client.post("/api/chat", json={"query": "Hi"}, headers={"Authorization": "Bearer valid"})
+    assert resp.status_code == 200
+    assert resp.headers.get("content-type", "").startswith("text/event-stream")
+    body = resp.content.decode("utf-8")
+    # Expect plain message text and not a JSON object with 'text' key
+    assert "Hello! I'm here to help. What can I help you with today?" in body
+    assert "\"text\":" not in body
