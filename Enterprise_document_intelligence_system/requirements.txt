@@ -1,0 +1,38 @@
+# ============================================================
+# requirements.txt
+# Install all dependencies with:
+#   pip install -r requirements.txt
+# ============================================================
+
+# --- FastAPI backend ---
+fastapi>=0.111.0
+uvicorn[standard]>=0.29.0
+pydantic>=2.0.0
+
+# --- Streamlit frontend ---
+streamlit>=1.35.0
+
+# --- LLM (local via Ollama) ---
+ollama>=0.2.0
+requests>=2.31.0
+
+# --- Vector search ---
+faiss-cpu>=1.8.0
+
+# --- Embeddings ---
+sentence-transformers>=3.0.0
+
+# --- Semantic cache ---
+qdrant-client>=1.9.0
+
+# --- Data handling ---
+pandas>=2.0.0
+numpy>=1.26.0
+
+# --- NLP (sentence splitting) ---
+spacy>=3.7.0
+# After install, also run:
+#   python -m spacy download en_core_web_sm
+
+# --- Utilities ---
+python-multipart>=0.0.9    # for FastAPI file uploads (future use)
