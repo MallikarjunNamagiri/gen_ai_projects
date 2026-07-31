@@ -1,0 +1,7 @@
+PRODUCT USAGE METRICS – MARCH
+
+Daily Active Users (DAU) averaged 120K, and Monthly Active Users (MAU) reached 350K, yielding a DAU/MAU ratio of 0.34 – stable compared to the previous quarter. However, the ratio dips to 0.28 on weekends, indicating lower engagement outside workdays.
+
+Feature adoption: The new dashboard released in February has a 45% adoption rate among active users, with 60% of users trying it at least once. Reporting module usage grew from 52% to 60% after we added export capabilities. The collaboration feature (sharing reports) remains underutilised at only 18% adoption.
+
+Retention curves show D1 retention at 65% (down 3% from last quarter), D7 at 35%, and D30 at 20%. The drop between D7 and D30 suggests a lack of sustained value. Power users (top 10% active) have D30 retention of 45%, indicating that deeper engagement drives loyalty. We recommend a targeted email campaign to re‑engage users who have not returned after 7 days, focusing on educational content and use‑case examples. Additionally, we should prioritise improving the new user onboarding flow to increase D1 retention to 70% by the end of Q2.

@@ -1,0 +1,7 @@
+INVENTORY TURNOVER AND SKU ANALYSIS – Q1
+
+Annualised inventory turnover ratio is 6.2, down from 6.8 in Q4, indicating slower inventory movement. We track SKU velocity across three tiers: high‑velocity (20% of SKUs account for 70% of sales), medium‑velocity (50% of SKUs contribute 25% of sales), and low‑velocity (30% of SKUs generate only 5% of sales).
+
+Stockouts occurred on five top‑selling SKUs during peak weeks, causing an estimated $120K in lost revenue. The out‑of‑stock items were primarily in the high‑velocity category, where reorder lead times are longer than expected. Slow‑moving items (SKU X and Y) have been sitting for over 90 days, tying up $80K in working capital.
+
+To improve turnover, we recommend the following actions: (1) increase safety stock levels for top 10 SKUs by 20% to mitigate stockouts, (2) run a clearance promotion on slow‑moving items offering 15% discount to liquidate excess inventory, and (3) renegotiate lead times with key suppliers to reduce reorder cycles. If we implement these, we project turnover to rise to 7.0 by Q3 and reduce stockout‑related losses by 50%.

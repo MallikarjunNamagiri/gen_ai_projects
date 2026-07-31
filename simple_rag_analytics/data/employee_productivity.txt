@@ -1,0 +1,7 @@
+EMPLOYEE PRODUCTIVITY – Q1
+
+Output per Full‑Time Equivalent (FTE) was $250K, which is on target against the annual plan of $1M per FTE. However, project delivery rates show room for improvement: overall on‑time delivery rate is 88%, but only 70% of projects were completed within the original scope and timeline. The remaining 30% experienced delays averaging 12 days.
+
+Productivity varied by department: Engineering delivered 92% of committed features on schedule, while Marketing and Sales achieved 80% of campaign milestones. The highest productivity was observed in the Product team, where agile practices and clear prioritisation contributed to a 15% increase in output compared to Q4.
+
+We identified that remote work has improved individual focus but reduced spontaneous collaboration, leading to longer decision‑making times. Recommendations: (1) implement weekly sync meetings for cross‑functional teams to resolve blockers quickly, (2) invest in project management training for team leads, and (3) set up a quarterly rewards program for teams that consistently meet delivery targets. With these changes, we aim to raise on‑time project delivery to 85% by Q3, which would boost overall FTE output by an estimated 5%.

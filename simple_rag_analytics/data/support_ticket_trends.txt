@@ -1,0 +1,7 @@
+SUPPORT TICKET TRENDS – Q1
+
+Ticket volume for Q1 totalled 2,800, a 10% increase over Q4. The breakdown by category is: billing/invoicing (35%), technical issues (30%), product usage (20%), and other (15%). The billing category saw the highest growth (+18%), driven by confusion over new pricing plans introduced in January.
+
+Average resolution time increased from 3.8 hours to 4.2 hours, with technical tickets taking the longest (6.5 hours) due to complex backend issues. Customer Satisfaction (CSAT) score averaged 4.5 out of 5, a slight drop from 4.6. The drop correlates with longer wait times for technical support.
+
+We have identified that 60% of billing tickets are related to a single issue: pro‑rated charges for mid‑cycle upgrades. By updating the billing system to automatically calculate prorated amounts and adding a self‑service FAQ page, we could reduce billing tickets by 20%. Hiring two additional technical support agents would bring resolution time back to under 4 hours and potentially lift CSAT to 4.7. We also plan to introduce a live chat option for high‑priority issues, which is expected to improve first‑contact resolution rates.

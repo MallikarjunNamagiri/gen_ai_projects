@@ -1,0 +1,7 @@
+CUSTOMER CHURN ANALYSIS – Q1
+
+The overall monthly churn rate increased to 5.2% in Q1, up from 4.1% in Q4, representing a net loss of 340 customers. The primary reasons cited in exit surveys were pricing (34%), product fit (28%), and support quality (22%). Customers switching to competitors often mentioned lower‑cost alternatives with comparable features.
+
+High‑risk segments: SMBs (under 50 employees) exhibited the highest churn at 8.0%, followed by mid‑market (4.5%) and enterprise (3.0%). SMB churn is particularly concerning because they represent 45% of our customer base. Geographic analysis shows churn is highest in the EMEA region (6.5%) and lowest in North America (4.2%).
+
+Retention interventions introduced late last year (discounts for annual plans, dedicated account managers) have reduced churn in enterprise by 1.2 percentage points but have had limited impact on SMBs. Recommendations: (1) implement a tiered pricing model that offers a basic plan for SMBs, (2) enhance the onboarding process with personalized training sessions, and (3) proactively reach out to customers with low product usage in the first 30 days. If we reduce SMB churn to 6% by Q3, we could recover 120 customers and increase annual recurring revenue by $240K.

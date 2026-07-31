@@ -1,0 +1,12 @@
+MARKETING CAMPAIGN ROI – Q1
+
+Total marketing spend for Q1 was $450K, generating 2,500 new conversions (purchases or sign‑ups) with a Customer Acquisition Cost (CAC) of $180. Overall ROAS (return on ad spend) stood at 3.2x, meaning $1 spent returned $3.20 in revenue.
+
+Channel performance:
+- Social media (Facebook, LinkedIn): spent $150K, conversions 850, CAC $176, ROAS 4.5x.
+- Email marketing: spent $80K, conversions 520, CAC $154, ROAS 3.8x.
+- Search (Google/Bing): spent $120K, conversions 600, CAC $200, ROAS 3.0x.
+- Display/retargeting: spent $60K, conversions 200, CAC $300, ROAS 2.0x.
+- Offline events: spent $40K, conversions 330, CAC $121, ROAS 5.0x (but limited scalability).
+
+The offline events performed best but are not easily scalable. Social and email channels have the highest volume and are cost‑efficient. We should reallocate $30K from display to social media, which has a higher ROAS and larger reach. To further reduce CAC, we recommend A/B testing landing pages and tightening audience targeting. A 10% improvement in conversion rate across social media could boost conversions by 85 and lower overall CAC to $170. Meanwhile, we plan to launch a referral program in Q2 to drive organic growth.
