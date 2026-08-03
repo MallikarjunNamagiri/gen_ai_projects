@@ -1,12 +1,22 @@
 """
 RAG pipeline for generic analytics documents.
 Day 2 upgrade: RAGSystem class with Ollama generation + structured JSON output.
+Day 2 (follow-up): Rich metadata injected at ingestion & chunking time.
 
 Components:
   - Local embeddings: sentence-transformers/all-MiniLM-L6-v2 (free, no API key)
   - Vector store: ChromaDB (persistent, skips re-embedding if DB exists)
   - LLM: Ollama / llama3.2 (local, free)
-  - Output: structured JSON with answer, reasoning, source_chunks, confidence
+  - Output: structured JSON with answer, reasoning, source_chunks,
+             chunk_metadata, confidence
+
+Chunk metadata fields (stored in Chroma, surfaced in every answer):
+  - file_name      : basename of the source document
+  - domain         : business domain inferred from filename
+  - chunk_index    : 0-based position of this chunk within its source document
+  - total_chunks   : total number of chunks produced from the source document
+  - char_count     : character length of the chunk text
+  - ingested_at    : ISO-8601 UTC timestamp of the ingestion run
 
 Usage:
   from src.rag_pipeline import RAGSystem
@@ -39,6 +49,65 @@ DATA_DIR = ROOT_DIR / "data"
 CHROMA_DIR = ROOT_DIR / "chroma_db"
 
 # ---------------------------------------------------------------------------
+# Metadata helpers
+# ---------------------------------------------------------------------------
+# Maps filename stem → business domain label.
+# Extend this dict when new document types are added.
+_DOMAIN_MAP: dict[str, str] = {
+    "customer_churn_analysis":  "churn",
+    "employee_productivity":     "productivity",
+    "financial_kpis":            "financial",
+    "inventory_turnover":        "inventory",
+    "marketing_campaign_roi":    "marketing",
+    "product_usage_metrics":     "product",
+    "sales_q1_summary":          "sales",
+    "support_ticket_trends":     "support",
+}
+
+
+def _enrich_chunk_metadata(
+    chunks: list,
+    ingested_at: str,
+) -> list:
+    """
+    Inject rich metadata into every chunk after splitting.
+
+    Added fields
+    ------------
+    file_name    : str   – basename of the source file
+    domain       : str   – business domain (from _DOMAIN_MAP, else "unknown")
+    chunk_index  : int   – 0-based position within its source document
+    total_chunks : int   – total chunks produced from the same source file
+    char_count   : int   – character length of the chunk text
+    ingested_at  : str   – ISO-8601 UTC timestamp of the ingestion run
+    """
+    # Group chunks by their source path to compute per-document totals.
+    from collections import defaultdict
+    source_groups: dict[str, list] = defaultdict(list)
+    for chunk in chunks:
+        src = chunk.metadata.get("source", "")
+        source_groups[src].append(chunk)
+
+    enriched: list = []
+    for src, group in source_groups.items():
+        file_name = Path(src).name
+        stem      = Path(src).stem
+        domain    = _DOMAIN_MAP.get(stem, "unknown")
+        total     = len(group)
+        for idx, chunk in enumerate(group):
+            chunk.metadata.update({
+                "file_name":    file_name,
+                "domain":       domain,
+                "chunk_index":  idx,
+                "total_chunks": total,
+                "char_count":   len(chunk.page_content),
+                "ingested_at":  ingested_at,
+            })
+            enriched.append(chunk)
+
+    return enriched
+
+# ---------------------------------------------------------------------------
 # Structured output schema
 # ---------------------------------------------------------------------------
 @dataclass
@@ -49,7 +118,8 @@ class StructuredAnswer:
     reasoning: str
     source_chunks: List[str]
     source_files: List[str]
-    confidence: str        # "high" | "medium" | "low"
+    chunk_metadata: List[dict]  # per-chunk metadata (domain, chunk_index, …)
+    confidence: str             # "high" | "medium" | "low"
     timestamp: str
 
     def to_dict(self) -> dict:
@@ -158,9 +228,22 @@ class RAGSystem:
         docs = self.retrieve(question)
         context = "\n\n".join(d.page_content for d in docs)
         source_files = sorted({
-            Path(d.metadata.get("source", "unknown")).name
+            d.metadata.get("file_name")
+            or Path(d.metadata.get("source", "unknown")).name
             for d in docs
         })
+        # Carry per-chunk metadata through to the answer for traceability.
+        chunk_metadata = [
+            {
+                "file_name":    d.metadata.get("file_name", "unknown"),
+                "domain":       d.metadata.get("domain", "unknown"),
+                "chunk_index":  d.metadata.get("chunk_index"),
+                "total_chunks": d.metadata.get("total_chunks"),
+                "char_count":   d.metadata.get("char_count"),
+                "ingested_at":  d.metadata.get("ingested_at"),
+            }
+            for d in docs
+        ]
 
         raw = self._chain.invoke({"context": context, "question": question})
         payload = self._parse_llm_response(raw.content)
@@ -171,6 +254,7 @@ class RAGSystem:
             reasoning=payload.get("reasoning", ""),
             source_chunks=[d.page_content for d in docs],
             source_files=source_files,
+            chunk_metadata=chunk_metadata,
             confidence=payload.get("confidence", "low"),
             timestamp=datetime.now(timezone.utc).isoformat(),
         )
@@ -206,6 +290,13 @@ class RAGSystem:
         splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=80)
         chunks = splitter.split_documents(docs)
         print(f"  Created {len(chunks)} chunks")
+
+        # --- Enrich every chunk with structured metadata ---
+        ingested_at = datetime.now(timezone.utc).isoformat()
+        chunks = _enrich_chunk_metadata(chunks, ingested_at=ingested_at)
+        domains_found = sorted({c.metadata["domain"] for c in chunks})
+        print(f"  Domains indexed: {domains_found}")
+        print(f"  Sample metadata: {chunks[0].metadata}")
 
         vectorstore = Chroma.from_documents(
             documents=chunks,

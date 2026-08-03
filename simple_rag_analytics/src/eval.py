@@ -67,21 +67,29 @@ def _score_result(result, q_entry: dict) -> dict:
     )
     conf_score    = CONFIDENCE_SCORE.get(result.confidence, 0)
 
+    # Domain hit: at least one retrieved chunk's metadata.domain matches
+    # the golden domain label — validates that retrieval landed in the
+    # correct business area, independent of keyword presence.
+    retrieved_domains = [m.get("domain", "unknown") for m in result.chunk_metadata]
+    domain_hit = q_entry["domain"] in retrieved_domains
+
     return {
-        "id":              q_entry["id"],
-        "domain":          q_entry["domain"],
-        "question":        q_entry["question"],
+        "id":               q_entry["id"],
+        "domain":           q_entry["domain"],
+        "question":         q_entry["question"],
         "expected_keywords": expected,
-        "answer":          result.answer,
-        "reasoning":       result.reasoning,
-        "source_files":    result.source_files,
-        "confidence":      result.confidence,
-        "timestamp":       result.timestamp,
+        "answer":           result.answer,
+        "reasoning":        result.reasoning,
+        "source_files":     result.source_files,
+        "chunk_metadata":   result.chunk_metadata,   # ← full per-chunk metadata
+        "confidence":       result.confidence,
+        "timestamp":        result.timestamp,
         # --- scores ---
-        "retrieval_hit":  retrieval_hit,   # did we retrieve the right text?
-        "answer_hit":     answer_hit,      # does the answer contain expected info?
-        "source_hit":     source_hit,      # did we retrieve from the right file?
-        "confidence_score": conf_score,    # 0-2
+        "retrieval_hit":    retrieval_hit,   # did we retrieve the right text?
+        "answer_hit":       answer_hit,      # does the answer contain expected info?
+        "source_hit":       source_hit,      # did we retrieve from the right file?
+        "domain_hit":       domain_hit,      # did we retrieve from the right domain?
+        "confidence_score": conf_score,      # 0-2
     }
 
 
@@ -96,20 +104,23 @@ def _aggregate(scored: list[dict]) -> dict:
     retrieval_precision = sum(s["retrieval_hit"] for s in scored) / n
     answer_precision    = sum(s["answer_hit"]    for s in scored) / n
     source_precision    = sum(s["source_hit"]    for s in scored) / n
+    domain_precision    = sum(s["domain_hit"]    for s in scored) / n
     avg_confidence      = sum(s["confidence_score"] for s in scored) / (n * 2)  # normalise 0-1
 
     by_domain: dict[str, dict] = {}
     for s in scored:
         d = s["domain"]
-        by_domain.setdefault(d, {"total": 0, "retrieval_hits": 0, "answer_hits": 0})
+        by_domain.setdefault(d, {"total": 0, "retrieval_hits": 0, "answer_hits": 0, "domain_hits": 0})
         by_domain[d]["total"]          += 1
         by_domain[d]["retrieval_hits"] += int(s["retrieval_hit"])
         by_domain[d]["answer_hits"]    += int(s["answer_hit"])
+        by_domain[d]["domain_hits"]    += int(s["domain_hit"])
 
     domain_summary = {
         domain: {
             "retrieval_accuracy": v["retrieval_hits"] / v["total"],
             "answer_accuracy":    v["answer_hits"]    / v["total"],
+            "domain_accuracy":    v["domain_hits"]    / v["total"],
         }
         for domain, v in by_domain.items()
     }
@@ -119,6 +130,7 @@ def _aggregate(scored: list[dict]) -> dict:
         "retrieval_precision": round(retrieval_precision, 3),
         "answer_precision":    round(answer_precision,    3),
         "source_precision":    round(source_precision,    3),
+        "domain_precision":    round(domain_precision,    3),
         "avg_confidence_norm": round(avg_confidence,      3),
         "by_domain":           domain_summary,
     }
@@ -147,13 +159,15 @@ def _print_summary(metrics: dict, elapsed: float):
     print(f"  Retrieval precision : {colored_pct(metrics['retrieval_precision'])}")
     print(f"  Answer precision    : {colored_pct(metrics['answer_precision'])}")
     print(f"  Source file hit     : {colored_pct(metrics['source_precision'])}")
+    print(f"  Domain routing hit  : {colored_pct(metrics['domain_precision'])}")
     print(f"  Avg confidence      : {colored_pct(metrics['avg_confidence_norm'])}")
     print()
     print(_c("  Per-domain breakdown:", ANSI_BOLD))
     for domain, dm in metrics["by_domain"].items():
         ret = dm["retrieval_accuracy"]
         ans = dm["answer_accuracy"]
-        print(f"    {domain:<14} retrieval={colored_pct(ret)}  answer={colored_pct(ans)}")
+        dom = dm["domain_accuracy"]
+        print(f"    {domain:<14} retrieval={colored_pct(ret)}  answer={colored_pct(ans)}  domain={colored_pct(dom)}")
     print(_c("=" * 62, ANSI_CYAN))
     print()
 
