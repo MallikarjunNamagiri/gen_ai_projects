@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "domain": "churn",
+    "question": "What was the Q1 monthly churn rate?",
+    "expected_keywords": ["5.2%", "5.2"],
+    "source_file": "customer_churn_analysis.txt"
+  },
+  {
+    "id": 2,
+    "domain": "churn",
+    "question": "Which customer segment had the highest churn rate?",
+    "expected_keywords": ["SMB", "small", "8%", "8.0%"],
+    "source_file": "customer_churn_analysis.txt"
+  },
+  {
+    "id": 3,
+    "domain": "sales",
+    "question": "What was the total revenue for Q1?",
+    "expected_keywords": ["revenue", "Q1", "sales"],
+    "source_file": "sales_q1_summary.txt"
+  },
+  {
+    "id": 4,
+    "domain": "sales",
+    "question": "Which sales region performed best in Q1?",
+    "expected_keywords": ["region", "top", "best", "performance"],
+    "source_file": "sales_q1_summary.txt"
+  },
+  {
+    "id": 5,
+    "domain": "marketing",
+    "question": "What was the return on investment for the Q1 marketing campaign?",
+    "expected_keywords": ["ROI", "return", "campaign", "marketing"],
+    "source_file": "marketing_campaign_roi.txt"
+  },
+  {
+    "id": 6,
+    "domain": "marketing",
+    "question": "Which marketing channel had the best conversion rate?",
+    "expected_keywords": ["channel", "conversion", "email", "social", "paid"],
+    "source_file": "marketing_campaign_roi.txt"
+  },
+  {
+    "id": 7,
+    "domain": "product",
+    "question": "Which product features have the highest adoption rate?",
+    "expected_keywords": ["feature", "adoption", "usage", "popular"],
+    "source_file": "product_usage_metrics.txt"
+  },
+  {
+    "id": 8,
+    "domain": "product",
+    "question": "What percentage of users are considered power users?",
+    "expected_keywords": ["power user", "active", "percent", "%"],
+    "source_file": "product_usage_metrics.txt"
+  },
+  {
+    "id": 9,
+    "domain": "support",
+    "question": "What is the average ticket resolution time?",
+    "expected_keywords": ["resolution", "time", "hours", "days", "SLA"],
+    "source_file": "support_ticket_trends.txt"
+  },
+  {
+    "id": 10,
+    "domain": "support",
+    "question": "Which support category generates the most tickets?",
+    "expected_keywords": ["category", "most", "ticket", "type"],
+    "source_file": "support_ticket_trends.txt"
+  },
+  {
+    "id": 11,
+    "domain": "inventory",
+    "question": "What is the current inventory turnover ratio?",
+    "expected_keywords": ["turnover", "ratio", "inventory"],
+    "source_file": "inventory_turnover.txt"
+  },
+  {
+    "id": 12,
+    "domain": "inventory",
+    "question": "Which product category has the slowest inventory movement?",
+    "expected_keywords": ["slow", "category", "movement", "days"],
+    "source_file": "inventory_turnover.txt"
+  },
+  {
+    "id": 13,
+    "domain": "financial",
+    "question": "What is the current gross margin percentage?",
+    "expected_keywords": ["gross margin", "margin", "%", "percent"],
+    "source_file": "financial_kpis.txt"
+  },
+  {
+    "id": 14,
+    "domain": "financial",
+    "question": "Is the company on track with its revenue targets?",
+    "expected_keywords": ["target", "revenue", "track", "forecast"],
+    "source_file": "financial_kpis.txt"
+  },
+  {
+    "id": 15,
+    "domain": "productivity",
+    "question": "How has employee productivity changed over the last quarter?",
+    "expected_keywords": ["productivity", "quarter", "change", "increase", "decrease"],
+    "source_file": "employee_productivity.txt"
+  },
+  {
+    "id": 16,
+    "domain": "productivity",
+    "question": "Which team or department shows the highest output per employee?",
+    "expected_keywords": ["team", "department", "output", "highest", "employee"],
+    "source_file": "employee_productivity.txt"
+  }
+]
