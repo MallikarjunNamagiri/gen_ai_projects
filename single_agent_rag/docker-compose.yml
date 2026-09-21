@@ -1,0 +1,23 @@
+version: "3.8"
+
+services:
+  document-ai:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: document_ai_app
+    ports:
+      - "8501:8501"
+    env_file:
+      - .env
+    environment:
+      - AUTO_REFRESH_ENABLED=false
+      - GROQ_MODEL=openai/gpt-oss-20b
+      - EMBEDDING_MODEL=sentence-transformers/all-MiniLM-L6-v2
+      - RERANKER_MODEL=cross-encoder/ms-marco-MiniLM-L-6-v2
+    volumes:
+      # Bind mounts to retain uploads, indexes, and cache on host machine
+      - ./data:/app/data
+      - ./faiss_index:/app/faiss_index
+      - ./faiss_query_cache:/app/faiss_query_cache
+    restart: unless-stopped

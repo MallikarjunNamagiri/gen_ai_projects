@@ -1,0 +1,936 @@
+{
+  "e5d3cb9c25acc2a0730e9d1ddbaab20b6570b33a083e1f7ec1accd33a67de1b9": {
+    "original_question": "How can I change or recover my account password, and what are the rules?",
+    "response": "**How to change or recover your password**\n\n1. **Self‑service reset (24/7)**  \n   * Go to the internal portal: `https://password.company.com`.  \n   * Verify your identity with two‑factor authentication using the authenticator app on your mobile device.  \n   * If you don’t have the authenticator app, call the IT help desk at extension 1234 for assistance.\n\n2. **Manual reset (after business hours)**  \n   * Request a reset through the portal.  \n   * IT will need manager approval before proceeding.\n\n**Password rules**\n\n* Minimum 12 characters.  \n* Must include uppercase and lowercase letters, at least one number, and one special character.  \n* Cannot contain common words or any password used in the last 12 months.  \n* Employees must change their password every 90 days.  \n\n**Additional notes**\n\n* After 5 failed login attempts the account locks and IT must unlock it.  \n* The reset process is documented in IT‑001, “Password Reset Procedure.”",
+    "sources": [
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      }
+    ],
+    "doc_hash": "f868850339477ad9aaf3ce9aef6cacd431583424a070b380aa07f27a66524f0e"
+  },
+  "7dd09e928c64fd692eae688d36dc848dff2b591b3fc53cbfb04cd6b61294ffa8": {
+    "original_question": "What is the password reset policy and how do I reset my password?",
+    "response": "**Password reset policy**\n\n| Item | Details |\n|------|---------|\n| **Reset method** | Self‑service portal at <https://password.company.com> (24/7). |\n| **Identity verification** | Two‑factor authentication via the authenticator app on your mobile device. If you don’t have the app, call the IT help desk at extension 1234. |\n| **Password complexity** | • Minimum 12 characters<br>• Upper‑case and lower‑case letters<br>• At least one number<br>• At least one special character<br>• No common words or passwords used in the last 12 months |\n| **Change frequency** | Employees must change passwords every 90 days. |\n| **Failed attempts** | After 5 failed logins the account locks and IT must unlock it. |\n| **Manual resets** | If you need a manual reset (e.g., after business hours), a manager must approve it. |\n\n**How to reset your password**\n\n1. Open a browser and go to <https://password.company.com>.  \n2. Follow the on‑screen prompts to start the reset.  \n3. When prompted, confirm your identity with the authenticator app.  \n4. Enter a new password that meets the complexity rules above.  \n5. Save the new password and log in to confirm it works.\n\nIf you cannot use the authenticator app, call the IT help desk at extension 1234 for assistance.",
+    "sources": [
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      }
+    ],
+    "doc_hash": "f868850339477ad9aaf3ce9aef6cacd431583424a070b380aa07f27a66524f0e"
+  },
+  "e531b299ddac2b04cbaafb9043af1e3399ba8e5a38f6bfa4b180d5d3b1e4c8ee": {
+    "original_question": "Can you explain the annual employee evaluation cycle and procedure?",
+    "response": "**Annual employee evaluation cycle (per HR‑002)**  \n\n1. **Timing** – The review is carried out during the first quarter of each fiscal year.  \n2. **Assessment stages**  \n   - **Self‑assessment** – the employee evaluates their own performance.  \n   - **Peer feedback** – colleagues provide input on the employee’s work.  \n   - **Manager evaluation** – the direct manager reviews the employee’s performance.  \n3. **Rating scale** – Employees receive a score of 1–5 in five categories:  \n   - Technical skills  \n   - Communication  \n   - Teamwork  \n   - Problem‑solving  \n   - Leadership  \n4. **Documentation** – All review documents must be completed within **30 days** of the review period.  \n5. **Performance improvement plans (PIPs)** – If an employee scores **below 3** in any category for **two consecutive review cycles**, a PIP is initiated.  \n6. **Appeals** – Employees may appeal their rating within **14 days** of receiving the final review by submitting documented evidence to the HR director.  \n7. **Compensation linkage** –  \n   - Ratings **4 or higher** qualify for merit increases of **3–7 %**.  \n   - A rating of **3** qualifies for a **1–2 %** increase.  \n\nThis cycle ensures a structured, timely, and transparent evaluation process that ties performance to compensation and provides a clear path for improvement and appeal.",
+    "sources": [
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      }
+    ],
+    "doc_hash": "f868850339477ad9aaf3ce9aef6cacd431583424a070b380aa07f27a66524f0e"
+  },
+  "8db327e593b208e0deb507ec4709612d9848c3f7cc4067e12a2f2e4e1371c318": {
+    "original_question": "What steps are involved in the employee performance appraisal system?",
+    "response": "**Employee performance appraisal system – key steps**\n\n1. **Timing** – Annual reviews are held in the first quarter of each fiscal year.  \n2. **Self‑assessment** – Employees complete a self‑review of their performance.  \n3. **Peer feedback** – Colleagues provide written feedback on the employee’s work.  \n4. **Manager evaluation** – The direct manager reviews the employee’s performance and scores them.  \n5. **Rating** – Scores are given on a 1‑5 scale in five categories: technical skills, communication, teamwork, problem‑solving, and leadership.  \n6. **Documentation** – All review documents must be finalized within 30 days of the review period.  \n7. **Performance Improvement Plan (PIP)** – If an employee scores below 3 in any category for two consecutive review cycles, a PIP is initiated.  \n8. **Appeal** – Employees may appeal a rating within 14 days of receiving the final review by submitting documented evidence to the HR director.  \n9. **Compensation linkage** – Salary adjustments and bonuses are tied to the ratings:  \n   * 4–5 → merit increase of 3–7%  \n   * 3 → 1–2% increase  \n   * 1–2 → no increase (unless a PIP is in place).  \n\nThese steps collectively form the performance appraisal process.",
+    "sources": [
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      }
+    ],
+    "doc_hash": "f868850339477ad9aaf3ce9aef6cacd431583424a070b380aa07f27a66524f0e"
+  },
+  "3a17a143809ed088d09e11c33a067c32012ba614f2c95f7d50fc6f646e45f1f9": {
+    "original_question": "What are the rates and subscription fees for enterprise-level access?",
+    "response": "**Enterprise‑tier subscription fees**\n\n| Item | Cost |\n|------|------|\n| Base subscription | **$50,000 / year** (covers up to 100 users) |\n| Additional users | **$500 / user / year** |\n| Volume discounts on the base subscription | 5 % (101‑500 users) <br>10 % (501‑1,000 users) <br>15 % (1,001‑5,000 users) <br>20 % (5,001+ users) |\n| Maintenance & support (included) | **20 % of the annual subscription** |\n| Premium 24/7 support | Adds **10 %** to the annual cost |\n| Professional‑services implementation | **$10,000 – $50,000** (depends on complexity) |\n| Custom integrations | **$200 / hour** |\n| Multi‑year (3‑year) contract | Additional **5 %** discount on the total price |\n\n*Payment terms:* 50 % upfront, 50 % due at implementation go‑live. Contracts auto‑renew annually unless cancelled 90 days before renewal.",
+    "sources": [
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      }
+    ],
+    "doc_hash": "f868850339477ad9aaf3ce9aef6cacd431583424a070b380aa07f27a66524f0e"
+  },
+  "5e0091f38d0d31cb20f98c2cd4d68a54c70cfc31511267d0fa7dc395b22dd15d": {
+    "original_question": "What is the process for filing reimbursement claims for expenses?",
+    "response": "**Filing a reimbursement claim**\n\n1. **Collect the necessary documents**  \n   * Original receipts (or electronic copies that show vendor name, date, amount, and items).  \n   * A detailed explanation of the business purpose.  \n   * Supervisor approval (and department‑head approval if the expense exceeds $500).  \n   * For international travel, obtain pre‑approval from the finance department.\n\n2. **Submit the claim**  \n   * Use the Concur system to create an expense report.  \n   * File the report within **30 days** of incurring the expense.  \n   * Include the required documentation and select the appropriate expense category (travel, client entertainment, supplies, professional development).\n\n3. **Processing**  \n   * Concur will route the report for approval.  \n   * Once approved, reimbursement is processed in **5–7 business days**.\n\n4. **Compliance**  \n   * Only reimbursable items (travel, meals, client entertainment, supplies, professional development) are covered.  \n   * Non‑reimbursable items include personal meals, commuting costs, alcohol, and entertainment without a business purpose.  \n   * Fraudulent claims may lead to disciplinary action up to termination.",
+    "sources": [
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      }
+    ],
+    "doc_hash": "f868850339477ad9aaf3ce9aef6cacd431583424a070b380aa07f27a66524f0e"
+  },
+  "d4987042bd9c485503a88aa93b2dc9b7340546e069352aa6d33eccf87e90a7c7": {
+    "original_question": "How does the performance review process work?",
+    "response": "The annual performance review is carried out in the first quarter of each fiscal year and follows these steps:\n\n1. **Assessment stages**  \n   - **Self‑assessment** by the employee.  \n   - **Peer feedback** from colleagues.  \n   - **Manager evaluation** by the direct supervisor.\n\n2. **Rating**  \n   Employees receive a score from 1 to 5 in five categories: technical skills, communication, teamwork, problem‑solving, and leadership.\n\n3. **Documentation**  \n   All review documents must be completed within 30 days of the review period.\n\n4. **Performance Improvement Plans (PIPs)**  \n   If an employee scores below 3 in any category for two consecutive review cycles, a PIP is implemented.\n\n5. **Appeals**  \n   Employees may appeal their rating within 14 days of receiving the final review. Appeals must include documented evidence and are submitted to the HR director.\n\n6. **Compensation impact**  \n   - Ratings of **4 or higher** qualify for merit increases of **3–7 %**.  \n   - A rating of **3** qualifies for a **1–2 %** increase.  \n\nThis process ensures a structured, documented, and fair evaluation of employee performance.",
+    "sources": [
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      }
+    ],
+    "doc_hash": "f868850339477ad9aaf3ce9aef6cacd431583424a070b380aa07f27a66524f0e"
+  },
+  "d9a9ef253fc0305982ca3b3cfd3f0d023264e525b43d6f08ec7ffd9647f0ad84": {
+    "original_question": "What changes were made in version 3.2.1 of the dashboard?",
+    "response": "**Version 3.2.1 – Dashboard changes**\n\n| Category | What was changed |\n|----------|------------------|\n| **New features** | • Real‑time analytics dashboard with customizable widgets<br>• Dark mode support<br>• Improved mobile responsiveness<br>• Enhanced search with autocomplete |\n| **Bug fixes** | • Resolved memory leak in report generation<br>• Fixed authentication timeout (now 30 min instead of 15 min)<br>• Corrected date formatting in international time zones<br>• Improved error messages for failed data imports |\n| **Performance improvements** | • Dashboard load time reduced by 45%<br>• API response time improved by 30%<br>• Database query optimization for large datasets |\n| **Known issues** | • Scheduled reports may fail when exceeding 10,000 records<br>• Minor chart alignment issues on iOS mobile view |\n| **Deprecated features** | Legacy reporting system will be removed in version 4.0 |\n| **Other** | Upgrade recommended for all users; rollback procedure documented for critical issues |\n\nThese are the changes introduced in the 3.2.1 release.",
+    "sources": [
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      }
+    ],
+    "doc_hash": "f868850339477ad9aaf3ce9aef6cacd431583424a070b380aa07f27a66524f0e"
+  },
+  "01f7ed57e53d11ab48ff6d4e38560ab1bd3da3de01cac82cbb9fd5d4a155b13e": {
+    "original_question": "What new features or bug fixes were deployed in the 3.2.1 dashboard update?",
+    "response": "**Version 3.2.1 Dashboard Update (released March 20, 2025)**  \n\n**New features**  \n- Real‑time analytics dashboard with customizable widgets  \n- Dark mode support  \n- Improved mobile responsiveness  \n- Enhanced search functionality with autocomplete  \n\n**Bug fixes**  \n- Resolved memory leak in report generation  \n- Fixed authentication timeout issue for inactive sessions (extended from 15 min to 30 min)  \n- Corrected date formatting in international time zones  \n- Improved error messaging for failed data imports",
+    "sources": [
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      }
+    ],
+    "doc_hash": "f868850339477ad9aaf3ce9aef6cacd431583424a070b380aa07f27a66524f0e"
+  },
+  "4508ba3ffdf8db2f2fd21221b192ce736a7561d82f627dda084704ea13b588b5": {
+    "original_question": "What are the release notes and updates for dashboard release v3.2.1?",
+    "response": "**Dashboard Release v3.2.1 – Release Notes (March 20, 2025)**  \n\n| Category | Details |\n|----------|---------|\n| **New Features** | • Real‑time analytics dashboard with customizable widgets<br>• Dark mode support<br>• Improved mobile responsiveness<br>• Enhanced search with autocomplete |\n| **Bug Fixes** | • Resolved memory leak in report generation<br>• Fixed authentication timeout (inactive sessions now 30 min instead of 15)<br>• Corrected date formatting for international time zones<br>• Improved error messages for failed data imports |\n| **Performance Improvements** | • Dashboard load time reduced by 45%<br>• API response time improved by 30%<br>• Optimized database queries for large datasets |\n| **Known Issues** | • Scheduled reports may fail when exceeding 10,000 records<br>• Minor chart alignment issues on iOS mobile view |\n| **Deprecated Features** | Legacy reporting system will be removed in version 4.0 |\n| **Upcoming in v3.3** | AI‑powered insights and predictive analytics |\n| **Other** | Upgrade recommended for all users; rollback procedure documented in the release notes |\n\nThese notes summarize all new functionality, fixes, performance gains, known issues, and future plans for the Company Dashboard v3.2.1.",
+    "sources": [
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      }
+    ],
+    "doc_hash": "f868850339477ad9aaf3ce9aef6cacd431583424a070b380aa07f27a66524f0e"
+  },
+  "9c97731964f47d0e4629401a4034a97cd284a6cd44c8f5a5eff408c99bb24e3f": {
+    "original_question": "How are performance reviews conducted and how do salary increases work?",
+    "response": "**Performance reviews**\n\n- Held in the first quarter of each fiscal year.  \n- Process:  \n  1. **Self‑assessment** by the employee.  \n  2. **Peer feedback** from colleagues.  \n  3. **Manager evaluation**.  \n- Employees receive a score from 1 to 5 in five categories: technical skills, communication, teamwork, problem‑solving, and leadership.  \n- All review documents must be finished within 30 days of the review period.  \n- Employees may appeal their rating within 14 days of receiving the final review by submitting documented evidence to the HR director.\n\n**Salary increases**\n\n- Merit increases are tied to the performance rating.  \n  - **Rating 4 or higher**: eligible for a 3 %–7 % salary increase.  \n  - **Rating 3**: eligible for a 1 %–2 % salary increase.  \n- Bonuses are also linked to performance, though the specific bonus amounts are not detailed in the document.",
+    "sources": [
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      }
+    ],
+    "doc_hash": "f868850339477ad9aaf3ce9aef6cacd431583424a070b380aa07f27a66524f0e"
+  },
+  "92ab9b7f6f09735911e75de06704eff9b374460b2ab2bce98fff1e80b802903b": {
+    "original_question": "How are employee appraisals linked to merit raises and annual bonuses?",
+    "response": "Employee appraisals determine both merit raises and bonus eligibility.  \n- **Merit raises**:  \n  - Ratings of **4 or higher** qualify for a merit increase of **3 %–7 %**.  \n  - Ratings of **3** qualify for a smaller increase of **1 %–2 %**.  \n- **Bonuses**: are also tied to the same performance ratings, with higher ratings leading to higher bonus payouts (the exact bonus amount is not specified in the document).",
+    "sources": [
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      }
+    ],
+    "doc_hash": "f868850339477ad9aaf3ce9aef6cacd431583424a070b380aa07f27a66524f0e"
+  },
+  "c144ce7f28782fe9d42cc2229065c8877bd3f63ef757bd01dd7819bb9eb4cb65": {
+    "original_question": "What is the Q4 2025 marketing strategy?",
+    "response": "**Q4 2025 Marketing Strategy**\n\n- **Focus:** Build brand awareness and acquire new B2B technology customers (CTOs, CIOs, IT Directors).  \n- **Channels & Budget:**  \n  - LinkedIn Ads – $200,000  \n  - Google Search – $150,000  \n  - Content Marketing – $100,000  \n  - Event Sponsorships – $50,000  \n- **Key Campaigns:**  \n  - “Future of Work” thought‑leadership series  \n  - Weekly product‑demo webinars  \n  - Bi‑weekly case‑study publications  \n  - Annual customer summit (Dec 5‑6)  \n- **KPIs:**  \n  - 500,000 unique website visitors  \n  - 5,000 MQLs  \n  - 3 % conversion rate  \n  - $5 million pipeline revenue  \n- **Content Calendar:** 12 blog posts, 4 whitepapers, 3 video case studies, 6 email newsletters per month.  \n- **Automation:** HubSpot for lead scoring and nurturing.  \n- **Differentiation:** Emphasize superior customer support and AI capabilities.  \n- **Partnerships:** Co‑marketing with Microsoft and AWS in November.\n\n---\n\n**Suggested Follow‑ups:**\n\n- How will the LinkedIn and Google Search campaigns be structured to reach CTOs and CIOs?  \n- What specific AI features will be highlighted in the marketing materials?  \n- What metrics will be used to measure the success of the “Future of Work” thought‑leadership series?",
+    "sources": [
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      }
+    ],
+    "doc_hash": "f868850339477ad9aaf3ce9aef6cacd431583424a070b380aa07f27a66524f0e"
+  },
+  "1cd1e26636be3fb87b3d9634d24e8a09bc9acae7f3877ffb67e888391aee72f4": {
+    "original_question": "What metrics will be used to measure the success of the “Future of Work” thought‑leadership series?",
+    "response": "The “Future of Work” thought‑leadership series will be evaluated against the marketing KPIs outlined for Q4 2025:\n\n- **Website traffic** – target of 500,000 unique visitors  \n- **Lead generation** – target of 5,000 marketing‑qualified leads (MQLs)  \n- **Conversion rate** – target of 3 % from visitor to lead  \n- **Pipeline revenue** – target of $5 million generated from the leads  \n\nThese metrics will indicate how effectively the series drives traffic, generates qualified leads, converts those leads, and contributes to revenue.\n\n**Suggested Follow‑ups:**  \n- How will webinar attendance be tracked and reported?  \n- What specific content assets (e.g., whitepapers, videos) are tied to the “Future of Work” series?  \n- Are there any additional engagement metrics (e.g., social shares, time on page) that will be monitored?",
+    "sources": [
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      }
+    ],
+    "doc_hash": "f868850339477ad9aaf3ce9aef6cacd431583424a070b380aa07f27a66524f0e"
+  },
+  "030f9ebed75df36a8300fe113788516751a609b758b82178967e1355ad15c500": {
+    "original_question": "What is the data retention policy for confidential information?",
+    "response": "The data retention policy for confidential information (Level 3) is **5 years**.\n\n**Suggested Follow-ups:**\n- What encryption and access controls are required for Level 3 and Level 4 data?\n- How are data retention periods enforced and audited within the company?",
+    "sources": [
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      }
+    ],
+    "doc_hash": "f868850339477ad9aaf3ce9aef6cacd431583424a070b380aa07f27a66524f0e"
+  },
+  "6e6be03c6911fd6682c7a077060a8c22837782ca52956f0340da38cd7dca1569": {
+    "original_question": "How are data retention periods enforced and audited within the company?",
+    "response": "**Answer**\n\nThe company’s data retention periods are set in its Data Retention Policy (Level 1: indefinite, Level 2: 7 years, Level 3: 5 years, Level 4: 3 years).  \nEnforcement is achieved by requiring that data be deleted or archived when its retention period expires, and compliance is verified during the company’s **quarterly security audits**. These audits review data classification, storage location, and retention status to ensure that all data types are kept for the correct duration and that no data is retained beyond its prescribed period.\n\n---\n\n**Suggested Follow‑ups:**\n\n- What procedures are in place if a data retention period is exceeded?  \n- How are employees trained to recognize and manage data according to its retention level?  \n- Which tools or systems does the company use to track and enforce retention deadlines?",
+    "sources": [
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      }
+    ],
+    "doc_hash": "f868850339477ad9aaf3ce9aef6cacd431583424a070b380aa07f27a66524f0e"
+  },
+  "5270c8768788256a0f68984ce09113399a851e970ed37dabfdd57b3156714abb": {
+    "original_question": "What is the company's workplace policy regarding information security and data protection?",
+    "response": "**Company Workplace Policy on Information Security & Data Protection**\n\n- **Approved Storage & Encryption**  \n  - All company data must reside on approved cloud platforms: AWS S3 (encryption enabled), Microsoft SharePoint, or Google Workspace.  \n  - Level 3 (Confidential) and Level 4 (Restricted) data require additional encryption and access controls.  \n  - Employees may not store confidential data on personal devices or unapproved cloud services.\n\n- **Data Classification & Retention**  \n  | Level | Classification | Retention Period |\n  |-------|----------------|------------------|\n  | 1 | Public | Indefinite |\n  | 2 | Internal | 7 years |\n  | 3 | Confidential | 5 years |\n  | 4 | Restricted | 3 years |\n\n- **Security Incident Management**  \n  - Report incidents to the CISO within 1 hour.  \n  - Data breaches must be documented and reported to relevant authorities (e.g., supervisory authority) within 72 hours, in line with GDPR.  \n  - Quarterly security audits are conducted.\n\n- **Remote Access & VPN**  \n  - VPN is mandatory when accessing company resources from outside the corporate network.  \n  - Remote work is allowed up to 3 days/week for employees who have completed a 90‑day probationary period and meet minimum internet speed requirements (25 Mbps download, 5 Mbps upload).  \n  - Remote workers must be available during core hours (10:00 AM–3:00 PM EST), submit requests via the HR portal at least 2 weeks in advance, and use company‑issued equipment.  \n  - Violations of the remote‑work policy can lead to revocation of remote‑work privileges.\n\n- **GDPR & Data Protection**  \n  - Personal data collected: names, email addresses, IP addresses, browsing behavior.  \n  - Legal bases: legitimate interest and consent.  \n  - Data subject rights: access, rectification, erasure, restriction, portability, objection, and withdrawal of consent at any time.  \n  - Data Protection Officer: Jane Smith (dpo@company.com).  \n  - Data Processing Agreements (DPAs) required for all third‑party vendors handling personal data.  \n  - Privacy Impact Assessments (PIAs) mandatory for new data‑processing activities.  \n  - Annual employee training on data protection.  \n  - Consent mechanisms must be clear, affirmative, and documented.  \n  - Personal data should be pseudonymized whenever possible.\n\n---\n\n**Suggested Follow‑ups:**\n\n- What specific encryption standards are required for Level 3 and Level 4 data?  \n- How are remote workers’ productivity metrics measured and monitored?  \n- Are there any additional controls for accessing sensitive data from home networks?",
+    "sources": [
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      }
+    ],
+    "doc_hash": "f868850339477ad9aaf3ce9aef6cacd431583424a070b380aa07f27a66524f0e"
+  },
+  "76839b1f6de30164c36aefd7bd3bea46773919ac7dedcd1e9e421f0a0162abb4": {
+    "original_question": "What is the pricing for the enterprise tier of your product?",
+    "response": "**Enterprise Tier Pricing (2025)**  \n- **Base subscription:** $50,000 per year for up to 100 users.  \n- **Additional users:** $500 per user per year.  \n- **Volume discounts on the subscription (applied to the base + user fees):**  \n  - 5 % for 101–500 users  \n  - 10 % for 501–1,000 users  \n  - 15 % for 1,001–5,000 users  \n  - 20 % for 5,001+ users  \n- **Professional‑services implementation:** $10,000–$50,000 (depends on complexity).  \n- **Custom integrations:** $200 per hour.  \n- **Maintenance & support:** 20 % of the annual subscription (included).  \n- **Premium 24/7 support:** adds 10 % to the annual cost.  \n- **Payment terms:** 50 % upfront, 50 % at go‑live.  \n- **Multi‑year (3‑year) contracts:** additional 5 % discount.  \n- **Included features:** dedicated account manager, quarterly business reviews, custom reporting, and API access with higher rate limits.  \n\n---\n\n**Suggested Follow‑ups:**  \n- What is the exact discount for a 3‑year contract with 750 users?  \n- How is the premium support fee calculated relative to the base subscription?  \n- Are there any additional fees for data migration or training?",
+    "sources": [
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      }
+    ],
+    "doc_hash": "f868850339477ad9aaf3ce9aef6cacd431583424a070b380aa07f27a66524f0e"
+  },
+  "bc38367a376d16dfdda7e36bfbfa1fd6e3709aa7ec2335a404a58eb11f669c1f": {
+    "original_question": "What is a recent development or piece of information that you can share?",
+    "response": "A recent development is that the company is planning partner marketing initiatives with Microsoft and AWS scheduled for November.\n\n**Suggested Follow-ups:**\n- What specific activities are planned for the Microsoft and AWS partnership in November?\n- Will the upcoming v3.3 features be available to all users immediately, or is there a phased rollout?",
+    "sources": [
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      }
+    ],
+    "doc_hash": "f868850339477ad9aaf3ce9aef6cacd431583424a070b380aa07f27a66524f0e"
+  },
+  "6fc70e1acb06d2f0966b5fe523ae151214bba9edfeaa3d952ac5e5ad651ed9f1": {
+    "original_question": "What specific activities are planned for the Microsoft and AWS partnership in November?",
+    "response": "The document only states that partner marketing initiatives with Microsoft and AWS are scheduled for November; it does not list any specific activities. Therefore, the specific activities planned for the partnership in November are not provided in the document.\n\n**Suggested Follow-ups:**\n- What are the objectives of the Microsoft and AWS partnership initiatives?\n- Which marketing channels or events will be used for the partnership in November?\n- Who are the key contacts or teams responsible for executing the partnership activities?",
+    "sources": [
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      }
+    ],
+    "doc_hash": "f868850339477ad9aaf3ce9aef6cacd431583424a070b380aa07f27a66524f0e"
+  },
+  "927267b967ff3181e93e3b1a5c52941b8a04a405d1093b98a9df198868d1e73d": {
+    "original_question": "Explain about your knowledge base in a short sentense",
+    "response": "The internal knowledge base is a documentation repository that support representatives use to find solutions and best‑practice information.  \n\n**Suggested Follow-ups:**  \n- How is the knowledge base organized and updated?  \n- What tools are used to search the knowledge base?  \n- Are there any guidelines for contributing new articles to the knowledge base?",
+    "sources": [
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      }
+    ],
+    "doc_hash": "f868850339477ad9aaf3ce9aef6cacd431583424a070b380aa07f27a66524f0e"
+  },
+  "173cb6c021d790bb10bd6f333853ee103f165d9914d90429a4f6c9d3997420bb": {
+    "original_question": "How is the knowledge base organized and updated?",
+    "response": "The document does not provide details on how the internal knowledge base is organized or how it is updated.\n\n**Suggested Follow-ups:**\n- What tools or platforms are used to maintain the internal knowledge base?\n- How frequently is the knowledge base reviewed or updated for accuracy?\n- Who is responsible for adding or revising content in the knowledge base?",
+    "sources": [
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      }
+    ],
+    "doc_hash": "f868850339477ad9aaf3ce9aef6cacd431583424a070b380aa07f27a66524f0e"
+  },
+  "aa206c16eb00a9557289b4c849a0d180bf03cecbae9818347cd1d4d91c778e1d": {
+    "original_question": "How frequently is the internal knowledge base reviewed or updated for accuracy?",
+    "response": "The document does not specify how often the internal knowledge base is reviewed or updated for accuracy.  \n\n**Suggested Follow-ups:**  \n- What processes are in place to ensure the knowledge base remains current?  \n- Who is responsible for maintaining the accuracy of the knowledge base?  \n- Are there any scheduled audits or review cycles for the knowledge base content?",
+    "sources": [
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      }
+    ],
+    "doc_hash": "f868850339477ad9aaf3ce9aef6cacd431583424a070b380aa07f27a66524f0e"
+  },
+  "27773e1d1cfece9c796066ae18f7832a7c2604370bc0db4aa404bac934998756": {
+    "original_question": "Key topics from the knowledge base?",
+    "response": "The document does not list specific topics covered in the internal knowledge base, so that information is not available in the provided context.\n\n**Suggested Follow-ups:**\n- What types of support articles are typically included in the internal knowledge base?\n- How can new employees access and contribute to the knowledge base?\n- Are there any guidelines for updating or reviewing knowledge base content?",
+    "sources": [
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      }
+    ],
+    "doc_hash": "f868850339477ad9aaf3ce9aef6cacd431583424a070b380aa07f27a66524f0e"
+  },
+  "38f7f64144c458820dc67feb2fa70e0e81def2dd0f960eb0052aa8a1442fa622": {
+    "original_question": "What are all the topics available from the source?",
+    "response": "**Key Topics Covered in the Document**\n\n- **Personal Data Collected**  \n  - Names, email addresses, IP addresses, browsing behavior  \n\n- **Legal Basis for Processing**  \n  - Legitimate interest  \n  - Consent  \n\n- **Data Subject Rights**  \n  - Right to access  \n  - Right to rectification  \n  - Right to erasure  \n  - Right to restrict processing  \n  - Right to data portability  \n  - Right to object  \n  - Right to withdraw consent at any time  \n\n- **Data Protection Officer (DPO)**  \n  - Jane Smith (dpo@company.com)  \n\n- **Data Processing Agreements (DPAs)**  \n  - Required for all third‑party vendors handling personal data  \n\n- **Data Breach Reporting**  \n  - Must be reported to the supervisory authority within 72 hours  \n\n- **Data Retention**  \n  - Defined in the company’s data retention policy  \n\n- **Privacy Impact Assessments (PIAs)**  \n  - Mandatory for new data processing activities  \n\n- **Employee Training**  \n  - Annual data protection training  \n\n- **Consent Mechanisms**  \n  - Must be clear, affirmative, documented, and revocable  \n\n- **Pseudonymization**  \n  - All personal data should be pseudonymized where possible  \n\n- **Software Versioning & Features**  \n  - Upcoming features in v3.3 (AI‑powered insights & predictive analytics)  \n  - Upgrade recommended for all users  \n  - Rollback procedure available in documentation for critical issues  \n\n- **Document Version**  \n  - Current version 4.0  \n\n---\n\n**Suggested Follow-ups:**  \n- How does the company handle data subject requests for erasure?  \n- What specific training modules are included in the annual employee training?  \n- Can you provide the detailed rollback procedure for the v3.3 upgrade?",
+    "sources": [
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      }
+    ],
+    "doc_hash": "f868850339477ad9aaf3ce9aef6cacd431583424a070b380aa07f27a66524f0e"
+  },
+  "84e0ed2ea5c3293699da4ab8da4f98083aea106c562867eb7034d98b3556f880": {
+    "original_question": "what is the overview of the source?",
+    "response": "**Overview of ISO/IEC 27001:2022(E) – “Information security management systems – Requirements”**\n\n- **Purpose & Scope**  \n  - Sets the requirements for establishing, implementing, maintaining, and continually improving an Information Security Management System (ISMS).  \n  - Applies to any organization, regardless of size, type, or industry, that wishes to protect the confidentiality, integrity, and availability of its information assets.\n\n- **Key Management System Elements**  \n  1. **Leadership (Clause 5)** – Top‑management commitment, policy setting, integration of ISMS into business processes, resource allocation, and communication of importance.  \n  2. **Planning (Clause 6)** – Risk assessment, risk treatment, objectives, and planning to achieve them.  \n  3. **Support (Clause 7)** – Resources, competence, awareness, communication, documented information, and control of records.  \n  4. **Operation (Clause 8)** – Implementation of controls, monitoring, measurement, analysis, and improvement of the ISMS.  \n  5. **Performance Evaluation (Clause 9)** – Monitoring, measurement, analysis, internal audit, and management review.  \n  6. **Improvement (Clause 10)** – Non‑conformity handling, corrective actions, and continual improvement.\n\n- **Control Requirements (Clauses 5.9‑5.11 & Annex A)**  \n  - **5.9 Inventory of information and associated assets** – Maintain an up‑to‑date inventory with owners.  \n  - **5.10 Acceptable use of information and assets** – Define, document, and enforce rules for acceptable use.  \n  - **5.11 Return of assets** – Ensure all assets are returned upon employment or contract termination.  \n  - Additional controls cover asset management, human‑resource security, physical & environmental security, communications security, system acquisition, and more.\n\n- **Documentation & Records**  \n  - Requires documented information such as the information security policy, objectives, risk assessment reports, control implementation records, audit findings, and management review minutes.\n\n- **Certification & Compliance**  \n  - Organizations can seek ISO/IEC 27001 certification by demonstrating conformity to these requirements through an accredited certification body.\n\n---\n\n**Suggested Follow‑ups:**\n\n- What are the specific risk assessment and treatment processes required by ISO/IEC 27001:2022?  \n- How does ISO/IEC 27001:2022 integrate with other ISO standards (e.g., ISO 9001, ISO 27701)?  \n- What are the key differences between the 2022 edition and the previous 2013 version of ISO/IEC 27001?",
+    "sources": [
+      {
+        "source": "Information security, cybersecurity.pdf",
+        "page": 1
+      },
+      {
+        "source": "Information security, cybersecurity.pdf",
+        "page": 2
+      },
+      {
+        "source": "Information security, cybersecurity.pdf",
+        "page": 8
+      },
+      {
+        "source": "Information security, cybersecurity.pdf",
+        "page": 17
+      },
+      {
+        "source": "Information security, cybersecurity.pdf",
+        "page": 26
+      }
+    ],
+    "doc_hash": "843a6728009540947b2c5531f94b4cf1fb698d5bf3b51b324c8801e3e01c5b78"
+  },
+  "19c76011b593c9de135fe2f7fdf98825b680a9092eaa202a93049b75d5a3cbfe": {
+    "original_question": "What are the key differences between ISO/IEC 27001:2022 and ISO/IEC 27001:2013?",
+    "response": "**Key differences between ISO/IEC 27001:2022 and ISO/IEC 27001:2013**\n\n| Area | 2013 Standard | 2022 Standard |\n|------|---------------|---------------|\n| **Structure** | 10‑clause structure (context, leadership, planning, support, operation, performance evaluation, improvement) | Harmonised 10‑clause structure that matches the ISO 9001/14001/45001 “Annex SL” format, making it easier to integrate with other management‑system standards. |\n| **Risk Management** | Risk assessment and treatment were largely defined in the standard itself, with a focus on a “risk‑based approach” but without a detailed, step‑by‑step methodology. | Explicitly references ISO/IEC 27005 and ISO 31000 for risk management, providing a clearer, more structured risk‑management process (risk identification, assessment, treatment, acceptance, monitoring). |\n| **Controls** | 114 controls grouped into 14 control categories (A‑1 to A‑14). | 93 controls grouped into 4 control families (A‑1 to A‑4) that align with ISO/IEC 27002:2022. The new structure removes some legacy controls, consolidates others, and introduces new controls (e.g., “cloud security”, “privacy” aspects). |\n| **Terminology & Scope** | Uses terms like “information security management system (ISMS)” and “information security controls” but some terminology is less consistent with other ISO standards. | Updated terminology to align with ISO/IEC 27002:2022 and other ISO/IEC 27000 series documents, improving consistency across the family. |\n| **Clause 4 – Context of the Organization** | Focuses on internal and external issues, needs of interested parties, and scope of the ISMS. | Adds explicit emphasis on the organization’s context, including the need to consider the “interested parties” and their expectations, and clarifies the scope definition process. |\n| **Clause 5 – Leadership** | Leadership commitment and policy are required but the language is less prescriptive. | Strengthens leadership responsibilities, including the need for top‑management to demonstrate leadership and commitment, and to integrate the ISMS into the organization’s overall governance. |\n| **Clause 6 – Planning** | Risk treatment plans and objectives are required, but the standard does not prescribe detailed planning steps. | Introduces a more detailed planning process, including the need to address risks, opportunities, and the integration of risk treatment plans into the overall business strategy. |\n| **Clause 7 – Support** | Focuses on resources, competence, awareness, communication, and documented information. | Adds explicit requirements for “documented information” management, including the need to maintain a “documented information register” and to control the creation, review, and approval of documents. |\n| **Clause 8 – Operation** | Operational planning and control, including the implementation of controls, are required. | Adds a requirement for “operational planning and control” that explicitly references the new control families and the need to monitor and review the effectiveness of controls. |\n| **Clause 9 – Performance Evaluation** | Audits, monitoring, measurement, analysis, and evaluation are required. | Strengthens the audit process, requiring a more systematic approach to internal audits and management review, and introduces a clearer link to the new control families. |\n| **Clause 10 – Improvement** | Continual improvement is required, but the standard does not prescribe specific improvement mechanisms. | Adds explicit requirements for corrective actions, non‑conformity handling, and the use of risk‑based improvement actions. |\n| **Other Notable Additions** | No explicit requirement for “privacy” or “cloud” controls. | Introduces controls related to privacy, cloud computing, and emerging technologies, reflecting the evolving threat landscape. |\n\n### Summary of the most significant changes\n\n1. **Harmonised structure** – Aligns with Annex SL, easing integration with other ISO management‑system standards.  \n2. **Updated control set** – 93 controls (vs. 114) that are more focused, modernised, and aligned with ISO/IEC 27002:2022.  \n3. **Clearer risk‑management linkage** – Explicit reference to ISO 31000 and ISO/IEC 27005, providing a more robust risk‑based approach.  \n4. **Enhanced leadership and governance** – Stronger emphasis on top‑management commitment and integration of the ISMS into overall governance.  \n5. **Improved documentation and audit requirements** – More prescriptive on documented information, audit planning, and corrective actions.  \n6. **New controls for emerging threats** – Inclusion of privacy, cloud, and other contemporary security concerns.\n\n---\n\n**Suggested Follow‑ups:**\n\n- How do the new control families in ISO/IEC 27001:2022 map to the controls in ISO/IEC 27002:2022?  \n- What are the practical steps an organization should take to transition from ISO/IEC 27001:2013 to ISO/IEC 27001:2022?  \n- Which specific clauses in the 2022 standard require the most significant changes in an existing ISMS implementation?",
+    "sources": [
+      {
+        "source": "Information security, cybersecurity.pdf",
+        "page": 4
+      },
+      {
+        "source": "Information security, cybersecurity.pdf",
+        "page": 4
+      },
+      {
+        "source": "Information security, cybersecurity.pdf",
+        "page": 25
+      }
+    ],
+    "doc_hash": "843a6728009540947b2c5531f94b4cf1fb698d5bf3b51b324c8801e3e01c5b78"
+  },
+  "9c1963aa4a17296726527de44abf17cfed93b264d5b41dbfd9e42275a3ff8d14": {
+    "original_question": "please provide me an overview of the source?",
+    "response": "**Overview of ISO/IEC 27001:2022(E) – “Information security management systems – Requirements”**\n\n- **Purpose & Scope**\n  - Provides the requirements for establishing, implementing, maintaining, and continually improving an Information Security Management System (ISMS).\n  - Applicable to any organization, regardless of size, type, or industry, that wishes to protect the confidentiality, integrity, and availability of its information assets.\n\n- **Structure of the Standard**\n  1. **Scope** – Defines the boundaries and applicability of the ISMS.\n  2. **Normative references** – Lists documents that are indispensable for the application of the standard.\n  3. **Terms and definitions** – Clarifies key terminology used throughout the standard.\n  4. **Context of the organization** – Requires understanding internal and external issues, stakeholder needs, and defining the ISMS scope.\n  5. **Leadership** – Emphasizes top‑management commitment, policy setting, resource allocation, and integration of ISMS requirements into business processes.\n  6. **Planning** – Covers risk assessment, risk treatment, objectives, and action plans.\n  7. **Support** – Addresses resources, competence, awareness, communication, documented information, and control of records.\n  8. **Operation** – Focuses on operational planning, risk treatment, and incident management.\n  9. **Performance evaluation** – Includes monitoring, measurement, analysis, evaluation, internal audits, and management review.\n  10. **Improvement** – Requires corrective actions, continual improvement, and handling nonconformities.\n\n- **Key Leadership Requirements (Section 5)**\n  - **5.1 Leadership and commitment** – Top management must:\n    - Establish a security policy and objectives aligned with strategic direction.\n    - Integrate ISMS requirements into organizational processes.\n    - Ensure necessary resources are available.\n    - Communicate the importance of effective information security.\n    - Ensure the ISMS achieves its intended outcomes.\n  - **5.9–5.11 Controls** – Illustrate specific controls such as:\n    - Maintaining an inventory of information assets and owners.\n    - Defining acceptable use rules and handling procedures.\n    - Ensuring return of assets upon employment or contract termination.\n\n- **Control Highlights (Excerpted)**\n  - **Information Security Integration** – ISMS must be woven into project management.\n  - **Asset Management** – Inventory, ownership, acceptable use, and return procedures are mandatory.\n  - **Resource Management** – Adequate resources (human, technical, financial) must be allocated.\n\n- **Publication Details**\n  - Third edition, published October 2022.\n  - Reference number: ISO/IEC 27001:2022(E).\n  - Copyright © ISO/IEC 2022; all rights reserved.\n\n---\n\n**Suggested Follow‑ups:**\n\n- What are the specific risk assessment and treatment processes required by ISO/IEC 27001:2022?\n- How does the standard define the roles and responsibilities of top management in the ISMS?\n- What documentation and record‑keeping requirements are mandated by the standard?",
+    "sources": [
+      {
+        "source": "Information security, cybersecurity.pdf",
+        "page": 1
+      },
+      {
+        "source": "Information security, cybersecurity.pdf",
+        "page": 2
+      },
+      {
+        "source": "Information security, cybersecurity.pdf",
+        "page": 8
+      },
+      {
+        "source": "Information security, cybersecurity.pdf",
+        "page": 17
+      },
+      {
+        "source": "Information security, cybersecurity.pdf",
+        "page": 26
+      }
+    ],
+    "doc_hash": "843a6728009540947b2c5531f94b4cf1fb698d5bf3b51b324c8801e3e01c5b78"
+  },
+  "dec783a85a12aa59fd859573c9413293693182a507d6687164555a4af9442f10": {
+    "original_question": "what is Information security?",
+    "response": "**Information security** is the discipline that protects information and information systems from threats that could compromise their confidentiality, integrity, or availability.  \nIn the context of ISO/IEC 27001:2022, it is implemented through an **Information Security Management System (ISMS)** that:\n\n- **Preserves confidentiality** – ensures that information is accessible only to authorized individuals.  \n- **Maintains integrity** – guarantees that information is accurate, complete, and protected from unauthorized alteration.  \n- **Ensures availability** – makes sure that authorized users can access information and systems when needed.  \n\nKey elements of an ISMS include:\n\n| Element | Purpose |\n|---------|---------|\n| **Risk management process** | Identifies, assesses, and treats risks to information assets. |\n| **Information security policy** | Top‑management‑approved statement that sets objectives, commitments, and the framework for continual improvement. |\n| **Roles, responsibilities, and authorities** | Clearly defined and communicated duties for all personnel involved in information security. |\n| **Integration with organizational processes** | Security considerations are embedded in the design of processes, systems, and controls. |\n| **Continuous improvement** | Regular monitoring, review, and enhancement of the ISMS. |\n\nThe ISMS is tailored to an organization’s size, structure, and evolving needs, and it is used by internal and external parties to assess whether the organization meets its own information‑security requirements.\n\n---\n\n**Suggested Follow‑ups:**\n\n- What are the specific requirements for an information‑security policy under ISO/IEC 27001:2022?  \n- How does the risk management process work within an ISMS?  \n- What roles and responsibilities must top management assign for effective information security?",
+    "sources": [
+      {
+        "source": "Information security, cybersecurity.pdf",
+        "page": 5
+      },
+      {
+        "source": "Information security, cybersecurity.pdf",
+        "page": 5
+      },
+      {
+        "source": "Information security, cybersecurity.pdf",
+        "page": 9
+      }
+    ],
+    "doc_hash": "843a6728009540947b2c5531f94b4cf1fb698d5bf3b51b324c8801e3e01c5b78"
+  },
+  "7cd556c93db3b4020b4c40b2b251a32d6fce9765f8b601a632ce8f045ea32947": {
+    "original_question": "What is the main purpose of your knowledge base, and what specific topics or tasks are you trained to help me with?",
+    "response": "**Purpose of this knowledge base**\n\nThe knowledge base is a concise reference for internal company documents that covers:\n\n- **Human Resources policies** – specifically the Remote Work Policy, including eligibility, technical requirements, scheduling, approval process, and compliance expectations.\n- **Sales & Marketing information** – the Enterprise Pricing Structure for 2025, which outlines the pricing framework used by the sales team.\n\nIt is designed to help you quickly locate and understand the key details of these documents, answer compliance‑related questions, and support day‑to‑day operational decisions.\n\n**Key topics & tasks I can help with**\n\n- **Remote Work Policy**\n  - Eligibility criteria (90‑day probation, internet speed, ergonomic setup)\n  - Core working hours (10:00 AM–3:00 PM EST)\n  - Request submission timeline (≥ 2 weeks in advance via HR portal)\n  - Manager approval discretion and revocation conditions\n  - Equipment usage and productivity expectations\n  - Sync progress status values (pending, in_progress, completed, failed) and retry logic\n\n- **Sales & Marketing**\n  - Overview of the 2025 Enterprise Pricing Structure\n  - How pricing tiers are applied to different customer segments\n\n- **General document navigation**\n  - Finding specific sections or document IDs\n  - Understanding document metadata (date, department, title)\n\n---\n\n**Suggested Follow-ups:**\n\n- What are the exact steps to submit a remote work request through the HR portal?\n- How does the sync status tracking work for remote work data, and what should I do if a sync fails?\n- Can you explain the pricing tiers in the Enterprise Pricing Structure 2025 and how they differ for small vs. large accounts?",
+    "sources": [
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      }
+    ],
+    "doc_hash": "f868850339477ad9aaf3ce9aef6cacd431583424a070b380aa07f27a66524f0e"
+  },
+  "1d6fe89d2df398563eac1a2449ba276a604a48b307b0bda91422458cd691e1bd": {
+    "original_question": "What are the key topics covered in the employee handbook for the HR department?",
+    "response": "**Answer**\n\nThe employee handbook for the HR department focuses on the company’s **Remote Work Policy** and includes the following key topics:\n\n1. **Hybrid Work Model** – Employees may work remotely up to 3 days per week.  \n2. **Eligibility Requirements** – Completion of a 90‑day probationary period and a stable internet connection (≥ 25 Mbps download, ≥ 5 Mbps upload).  \n3. **Core Working Hours** – Remote workers must be available from 10:00 AM to 3:00 PM EST.  \n4. **Request Process** – Remote‑work requests must be submitted via the HR portal at least 2 weeks in advance.  \n5. **Managerial Discretion** – Managers can approve or deny requests based on team needs and project deadlines.  \n6. **Performance Expectations** – Remote employees must maintain regular productivity metrics and attend all scheduled virtual meetings.  \n7. **Equipment and Ergonomics** – Company‑issued equipment must be used, and employees must ensure their home office meets basic ergonomic standards.  \n8. **Policy Violations** – Breaches may lead to revocation of remote‑work privileges.  \n9. **Sync Progress Tracking** – (Technical note) Sync status values (pending, in_progress, completed, failed) with exponential‑backoff retry logic for failed operations.\n\n---\n\n**Suggested Follow-ups:**\n\n- What are the specific productivity metrics that remote employees must meet?  \n- How does the HR portal handle remote‑work request approvals and notifications?  \n- Are there any additional ergonomic guidelines or equipment reimbursement policies?",
+    "sources": [
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      }
+    ],
+    "doc_hash": "f868850339477ad9aaf3ce9aef6cacd431583424a070b380aa07f27a66524f0e"
+  },
+  "4199eb4b99de6c542d6a34ce8f1ab1f6c9158347d46f1cd791daa46b42485141": {
+    "original_question": "Could you provide a summary of the employee handbook for the HR department?",
+    "response": "Hello!  \nHere’s a concise summary of the **Employee Handbook – HR Department** (Remote Work Policy) from the document you provided:\n\n**Remote Work Policy (HR‑001)**  \n- **Hybrid Model**: Employees may work remotely up to **3 days per week**.  \n- **Eligibility**: Must have completed a **90‑day probationary period** and possess a stable internet connection (≥ 25 Mbps download, ≥ 5 Mbps upload).  \n- **Availability**: Remote workers must be online during **core hours 10:00 AM – 3:00 PM EST**.  \n- **Request Process**: Submit remote‑work requests via the HR portal **at least 2 weeks in advance**. Managers decide approvals based on team needs and project deadlines.  \n- **Performance & Meetings**: Maintain regular productivity metrics and attend all scheduled virtual meetings.  \n- **Equipment & Ergonomics**: Use company‑issued equipment; ensure home office meets basic ergonomic standards.  \n- **Compliance**: Violations may lead to revocation of remote‑work privileges.  \n\nThe document also briefly mentions sync progress tracking (status values: pending, in_progress, completed, failed) with exponential back‑off retry logic, though that appears unrelated to the policy itself.\n\n---\n\n**Suggested Follow-ups:**  \n- What are the specific productivity metrics required for remote workers?  \n- How does the company handle reimbursement for home office equipment?  \n- Are there any additional guidelines for remote work outside of the core hours?",
+    "sources": [
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      },
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      }
+    ],
+    "doc_hash": "f868850339477ad9aaf3ce9aef6cacd431583424a070b380aa07f27a66524f0e"
+  },
+  "0a1fd56d72e1bb438323e17293801c6eeceb36ab7f08cc272627e5e1cc657b67": {
+    "original_question": "What specific productivity metrics are required for remote workers according to the Employee Handbook – HR Department?",
+    "response": "The Employee Handbook – HR Department does not specify any particular productivity metrics for remote workers. It only states that remote employees must maintain their regular productivity metrics, but the exact metrics are not defined in the provided text.\n\n**Suggested Follow-ups:**\n- Where can I find the specific productivity metrics that apply to my role?\n- Are there any examples of acceptable productivity metrics for remote work?\n- Who should I contact if I need clarification on the productivity expectations for remote employees?",
+    "sources": [
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      }
+    ],
+    "doc_hash": "f868850339477ad9aaf3ce9aef6cacd431583424a070b380aa07f27a66524f0e"
+  },
+  "e245aadb20f1f9e54979e8a2ae8ec8b20f2a85dfcc4463208f3e11f8e1928ba3": {
+    "original_question": "What specific productivity metrics must remote employees meet according to the company’s remote work policy?",
+    "response": "The policy states that remote employees must **maintain their regular productivity metrics** and attend all scheduled virtual meetings. However, it does not list specific metrics (e.g., sales targets, project milestones, time‑tracking hours, etc.) in the document.  \n\n**Suggested Follow-ups:**  \n- What are the specific productivity metrics used for my department?  \n- How are productivity metrics tracked and reported for remote workers?  \n- Are there any additional performance expectations for remote employees beyond the standard metrics?The policy states that remote employees **must maintain their regular productivity metrics** and attend all scheduled virtual meetings. It does not list specific metrics (e.g., sales targets, project milestones, or time‑tracking requirements) within the document, so those would be defined elsewhere in the company’s standard performance guidelines.\n\n**Suggested Follow-ups:**\n- Where can I find the detailed list of productivity metrics that apply to my role?\n- Are there any additional expectations for remote employees regarding project deliverables or reporting?\n- How does the company track or review remote employees’ productivity during the hybrid work arrangement?",
+    "sources": [
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      }
+    ],
+    "doc_hash": "f868850339477ad9aaf3ce9aef6cacd431583424a070b380aa07f27a66524f0e"
+  },
+  "30097bb6f0f7189c90744231ef0587aef15e8442898559ca19f39f3bf961601d": {
+    "original_question": "In the employee handbook for the HR department, how are productivity metrics tracked and reported for remote workers?",
+    "response": "The employee handbook does not specify the exact methods or tools used to track and report productivity metrics for remote workers. It only states that remote employees must maintain their regular productivity metrics.\n\n**Suggested Follow-ups:**\n- What specific productivity metrics are expected of remote employees?\n- Which tools or software does the company use to monitor remote work performance?\n- Are there any reporting deadlines or formats for remote workers to submit their productivity data?The employee handbook does not specify the exact methods or tools used to track and report productivity metrics for remote workers. It only states that remote employees must maintain their regular productivity metrics.\n\n**Suggested Follow-ups:**\n- What specific productivity metrics are expected of remote employees?\n- Which tools or software does the company use to monitor remote work performance?\n- Are there any reporting deadlines or formats for remote workers to submit their productivity data?",
+    "sources": [
+      {
+        "source": "employee_handbook_hr_department.txt",
+        "page": "N/A"
+      }
+    ],
+    "doc_hash": "f868850339477ad9aaf3ce9aef6cacd431583424a070b380aa07f27a66524f0e"
+  },
+  "80568c98a55f339108848a5c6231a94883d336930ac361023186a3958f304e2d": {
+    "original_question": "What are the key topics covered in the “Information security, cybersecurity.pdf” document?",
+    "response": "**Key Topics Covered**\n\nThe “Information security, cybersecurity.pdf” document is the ISO/IEC 27001:2022 standard for Information Security Management Systems (ISMS). Its main themes include:\n\n| Section | Core Focus |\n|---------|------------|\n| **Leadership & Commitment (5.1)** | Top‑management responsibilities: establishing policy and objectives, integrating ISMS into business processes, ensuring resources, communicating importance, and achieving intended outcomes. |\n| **Integration into Processes** | Embedding information‑security requirements into the organization’s overall management and project‑management processes. |\n| **Inventory of Information & Assets (5.9)** | Creation and maintenance of an inventory that lists information, associated assets, and their owners. |\n| **Acceptable Use (5.10)** | Defining, documenting, and implementing rules and procedures for the acceptable use of information and assets. |\n| **Return of Assets (5.11)** | Procedures for the return of all organizational assets by personnel or other parties upon employment or contract termination. |\n| **Overall ISMS Requirements** | The standard’s structure for establishing, implementing, maintaining, and continually improving an ISMS, including risk assessment, controls, monitoring, and audit. |\n\nThese topics collectively provide a framework for protecting information, ensuring cybersecurity, and safeguarding privacy within an organization.\n\n---\n\n**Suggested Follow‑ups:**\n\n- How does ISO/IEC 27001:2022 differ from earlier editions in terms of leadership requirements?  \n- What specific controls are recommended for managing the inventory of information assets?  \n- How can an organization effectively integrate the ISMS requirements into its existing project‑management methodology?**Key Topics Covered**\n\nThe document is the third edition of ISO/IEC 27001:2022, a global standard for Information Security Management Systems (ISMS). The excerpts provided highlight the following core themes:\n\n| Section | Focus | Key Points |\n|---------|-------|------------|\n| **Leadership & Commitment (5.1)** | Top‑management responsibility | • Establishing a security policy and objectives aligned with strategy.<br>• Integrating ISMS requirements into organisational processes.<br>• Ensuring necessary resources are available.<br>• Communicating the importance of security and compliance.<br>• Achieving intended ISMS outcomes. |\n| **Integration into Project Management** | Embedding security in projects | • Information security must be a core component of project planning and execution. |\n| **Inventory of Information & Assets (5.9)** | Asset management | • Maintain an up‑to‑date inventory of information and associated assets, including ownership. |\n| **Acceptable Use (5.10)** | Usage rules | • Define, document, and enforce rules for acceptable use and handling of information and assets. |\n| **Return of Assets (5.11)** | Asset disposition | • Require personnel and other parties to return all organisational assets upon employment or contract termination. |\n\nThese topics collectively cover the governance, operational controls, and asset‑management aspects required for a compliant ISMS.\n\n---\n\n**Suggested Follow‑ups:**\n\n- How does ISO/IEC 27001:2022 define the roles and responsibilities of top management in the ISMS?\n- What specific controls are recommended for managing the inventory of information assets?\n- How can an organisation effectively integrate information security requirements into its existing project‑management processes?",
+    "sources": [
+      {
+        "source": "Information security, cybersecurity.pdf",
+        "page": 1
+      },
+      {
+        "source": "Information security, cybersecurity.pdf",
+        "page": 2
+      },
+      {
+        "source": "Information security, cybersecurity.pdf",
+        "page": 8
+      },
+      {
+        "source": "Information security, cybersecurity.pdf",
+        "page": 17
+      },
+      {
+        "source": "Information security, cybersecurity.pdf",
+        "page": 26
+      }
+    ],
+    "doc_hash": "843a6728009540947b2c5531f94b4cf1fb698d5bf3b51b324c8801e3e01c5b78"
+  },
+  "9d66758cc9a58697f9f7f729e01f1b21bc40ef32ef7809dcbb1f579793a73979": {
+    "original_question": "How can an organization effectively integrate information security requirements into its existing project‑management processes?",
+    "response": "**Answer**\n\nTo weave information‑security requirements into an organization’s existing project‑management framework, follow a structured, risk‑based approach that aligns with ISO/IEC 27001:2022:\n\n| Step | What to Do | Why It Works |\n|------|------------|--------------|\n| **1. Map security objectives to project goals** | Identify the confidentiality, integrity, and availability (CIA) goals that each project must support. | Ensures security is not an after‑thought but a core part of the project’s purpose. |\n| **2. Conduct a project‑specific risk assessment** | Use the ISMS risk‑management process to evaluate threats, vulnerabilities, and impacts for the project’s scope, assets, and stakeholders. | Provides a clear, evidence‑based basis for selecting controls and allocating resources. |\n| **3. Define security controls in the project charter** | Embed the chosen ISO/IEC 27001 controls (e.g., access control, change management, incident response) into the charter, scope, and deliverables. | Makes security responsibilities explicit and traceable throughout the project lifecycle. |\n| **4. Integrate controls into project‑management processes** | • **Planning** – include security milestones and acceptance criteria.<br>• **Execution** – enforce controls during development, testing, and deployment.<br>• **Monitoring & Control** – track compliance with security metrics and audit findings.<br>• **Closing** – conduct a security review and update the ISMS with lessons learned. | Keeps security actions aligned with the familiar project‑management workflow, reducing friction. |\n| **5. Assign ownership and accountability** | Designate a project security owner (e.g., a security champion or PMO liaison) who reports to the ISMS governance body. | Provides clear lines of responsibility and ensures that security decisions are made at the right level. |\n| **6. Evaluate effectiveness and close the loop** | After project completion, review security outcomes against the ISMS objectives, update risk registers, and feed findings back into the continual‑improvement cycle. | Demonstrates that the ISMS is living and evolving, and that projects contribute to overall risk reduction. |\n\n**Key Points from the Document**\n\n- The ISMS must be *part of and integrated with* the organization’s processes and overall management structure.  \n- Security considerations should be embedded in the *design* of processes, information systems, and controls.  \n- Actions to address risks and opportunities must be *planned*, *implemented*, and *evaluated* within the ISMS.  \n- The order of requirements in the standard is not prescriptive; focus on relevance to the organization’s needs.\n\nBy treating security as a first‑class citizen in every project‑management phase—planning, execution, monitoring, and closure—you create a seamless, risk‑aware workflow that satisfies ISO/IEC 27001 while delivering business value.\n\n---\n\n**Suggested Follow‑ups:**\n\n- What specific ISO/IEC 27001 controls are most relevant for a software development project?  \n- How can we measure the effectiveness of security controls during a project’s execution phase?  \n- What role should the ISMS governance body play in approving project‑level security decisions?**Answer**\n\nTo weave information‑security requirements into existing project‑management processes, an organization should treat the ISMS as a core part of its project life‑cycle rather than a separate add‑on. The ISO/IEC 27001:2022 guidance highlights several practical steps:\n\n| Step | What to Do | Why It Works |\n|------|------------|--------------|\n| **1. Embed security in the project charter** | Include a security objective, risk tolerance, and key controls (from Annex A) in the charter. | The charter is the project’s formal starting point; early inclusion ensures all stakeholders see security as a first‑class requirement. |\n| **2. Conduct a project‑specific risk assessment** | Use the ISMS risk‑management process to identify threats, vulnerabilities, and impacts for the project’s assets. | Projects often introduce new data flows or systems; a tailored assessment surfaces risks that generic policies may miss. |\n| **3. Map controls to project activities** | Translate the identified controls into concrete actions (e.g., secure coding standards, access‑control reviews, data‑classification checks) and assign owners. | Directly linking controls to tasks makes them actionable and traceable. |\n| **4. Integrate controls into project tools and templates** | Update Gantt charts, issue trackers, and documentation templates to capture security checkpoints (e.g., code‑review sign‑off, penetration‑test results). | Automation and visibility reduce the chance of overlooking security steps. |\n| **5. Train project teams on security roles** | Provide role‑specific training (e.g., developers on secure coding, PMs on risk reporting). | Knowledge gaps are a common source of security gaps; training ensures everyone knows their responsibilities. |\n| **6. Monitor and audit during execution** | Use the ISMS monitoring mechanisms (e.g., internal audits, KPI dashboards) to track compliance with security controls. | Continuous monitoring lets the team correct deviations early and demonstrates accountability. |\n| **7. Review and improve at project close** | Conduct a post‑project review that includes a security audit, lessons‑learned, and updates to the ISMS (e.g., new controls, updated risk register). | Closing the loop feeds back into the continual‑improvement cycle of the ISMS. |\n\n**Key points from the standard that support this approach**\n\n- *Integration with overall management structure*: The ISMS must be part of the organization’s processes, so project‑management tools and governance bodies should be aligned with ISMS policies.  \n- *Risk‑based planning*: The organization must plan actions to address risks and opportunities and evaluate their effectiveness—exactly what the project‑level steps above accomplish.  \n- *Scalability*: The ISMS implementation should scale with the organization’s needs; project‑level integration allows the ISMS to grow organically with new initiatives.\n\nBy treating security as a built‑in element of every project, an organization can maintain confidentiality, integrity, and availability while still delivering on project objectives.\n\n---\n\n**Suggested Follow‑ups:**\n\n- What specific ISO/IEC 27001 controls are most relevant for software development projects?  \n- How can we measure the effectiveness of security controls during a project’s execution?  \n- What training resources are recommended for project managers to understand ISMS requirements?",
+    "sources": [
+      {
+        "source": "Information security, cybersecurity.pdf",
+        "page": 9
+      },
+      {
+        "source": "Information security, cybersecurity.pdf",
+        "page": 5
+      },
+      {
+        "source": "Information security, cybersecurity.pdf",
+        "page": 5
+      }
+    ],
+    "doc_hash": "843a6728009540947b2c5531f94b4cf1fb698d5bf3b51b324c8801e3e01c5b78"
+  },
+  "4713a860039b9dbbf28409f576e645f9ca56f19e7c38cbe934c45e46e69158af": {
+    "original_question": "What specific controls are recommended for managing the inventory of information assets?",
+    "response": "**Answer**\n\nThe ISO/IEC 27001:2022 standard recommends the following specific control for managing the inventory of information assets:\n\n| Control | Key Requirement |\n|---------|-----------------|\n| **5.9 – Inventory of information and other associated assets** | *An inventory of information and other associated assets, including owners, shall be developed and maintained.* |\n\n**What this entails**\n\n1. **Develop an inventory** – Create a comprehensive list of all information assets (documents, databases, software, hardware, etc.) that the organization uses or holds.  \n2. **Include owners** – For each asset, record the responsible owner or custodian who is accountable for its protection, classification, and lifecycle.  \n3. **Maintain the inventory** – Keep the inventory up‑to‑date, reflecting changes such as new assets, decommissioning, or ownership transfers.  \n\n**Supporting controls that reinforce inventory management**\n\n- **5.10 Acceptable use** – Defines how assets may be used, ensuring that the inventory reflects legitimate usage policies.  \n- **5.11 Return of assets** – Ensures assets are tracked and returned, which feeds back into the inventory.  \n- **5.12 Classification & 5.13 Labelling** – Classification and labeling information should be recorded in the inventory.  \n- **5.15 Access control** – Access rights tied to assets should be reflected in the inventory.  \n- **7.5.3 Control of documented information** – The inventory itself is documented information that must be controlled (availability, protection, version control, retention, etc.).\n\n---\n\n**Suggested Follow‑ups:**\n\n- How should the inventory be updated when an asset is transferred or disposed of?  \n- What documentation format or tools are recommended for maintaining the inventory?  \n- Which roles or responsibilities should be assigned to manage the inventory lifecycle?**Answer**\n\nThe ISO/IEC 27001:2022 standard recommends the following specific control for managing the inventory of information assets:\n\n| Control | Key Requirement |\n|---------|-----------------|\n| **5.9 Inventory of information and other associated assets** | *An inventory of information and other associated assets, including owners, shall be developed and maintained.* |\n\n**What this means in practice**\n\n1. **Develop an inventory** – Create a comprehensive list that identifies each information asset (documents, databases, systems, etc.) and any associated physical or logical assets (servers, storage devices, network equipment, etc.).  \n2. **Assign ownership** – For every asset, record the responsible owner or custodian who is accountable for its protection, maintenance, and lifecycle.  \n3. **Maintain the inventory** – Keep the inventory up‑to‑date by regularly reviewing and updating entries whenever assets are added, modified, transferred, or retired.  \n4. **Integrate with project management** – Ensure that the inventory is referenced and updated as part of project planning and execution, so that new assets introduced during projects are captured promptly.\n\nWhile 5.9 is the primary control for inventory management, it is often implemented in conjunction with related controls such as:\n\n- **5.10 Acceptable use** – to define how assets may be used.  \n- **5.11 Return of assets** – to ensure assets are reclaimed when personnel leave.  \n- **5.12 Classification** – to classify assets based on confidentiality, integrity, and availability needs.  \n- **5.13 Labelling** – to apply appropriate labels that reflect classification.  \n- **5.15 Access control** – to restrict who can view or modify the inventory.  \n\nThese complementary controls help ensure that the inventory remains accurate, secure, and useful for risk management and compliance.\n\n---\n\n**Suggested Follow‑ups:**\n\n- How should the inventory be updated when new information assets are introduced during a project?  \n- What documentation or tools are recommended for maintaining the inventory and tracking ownership?  \n- How does the inventory control interact with the organization’s asset disposal or return procedures?",
+    "sources": [
+      {
+        "source": "Information security, cybersecurity.pdf",
+        "page": 17
+      },
+      {
+        "source": "Information security, cybersecurity.pdf",
+        "page": 18
+      },
+      {
+        "source": "Information security, cybersecurity.pdf",
+        "page": 13
+      }
+    ],
+    "doc_hash": "843a6728009540947b2c5531f94b4cf1fb698d5bf3b51b324c8801e3e01c5b78"
+  }
+}

@@ -1,0 +1,17 @@
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+.env
+.git
+.gitignore
+.DS_Store
+
+# Exclude local runtime data; let Docker volumes handle persistence
+data/
+faiss_index/
+faiss_query_cache/
