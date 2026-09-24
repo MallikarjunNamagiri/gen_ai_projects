@@ -58,6 +58,7 @@ coverage.xml
 .env
 .env.local
 .env.*.local
+.env.example
 
 # IDE settings (VS Code / JetBrains)
 .vscode/
@@ -81,3 +82,9 @@ models/
 *.db
 *.sqlite3
 chroma_data/
+
+
+# Ignore llm related files
+data/
+faiss_index/
+faiss_query_index/

@@ -1,6 +1,0 @@
-Applicant: James Okafor
-Loan Amount: 120000
-Loan Type: Business
-Employment Status: Self-employed
-Annual Income: Not disclosed
-Flags: Missing income documentation

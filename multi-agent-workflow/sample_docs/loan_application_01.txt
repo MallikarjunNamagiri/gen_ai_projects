@@ -1,6 +1,0 @@
-Applicant: Sarah Chen
-Loan Amount: 42000
-Loan Type: Personal
-Employment Status: Full-time
-Annual Income: 85000
-Flags: None
