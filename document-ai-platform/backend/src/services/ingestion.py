@@ -1,95 +1,88 @@
+import io
 import hashlib
-from pathlib import Path
-from langchain_community.document_loaders import PyPDFLoader, TextLoader
+from typing import List, Tuple
+from pypdf import PdfReader
+from langchain_core.documents import Document
 from langchain_text_splitters import RecursiveCharacterTextSplitter
-from langchain_community.vectorstores import FAISS
-# from backend.src.config import FAISS_INDEX_DIR, DATA_DIR
-from src.core.models import get_embeddings
 from qdrant_client import QdrantClient
-from langchain_qdrant import QdrantVectorStore
+from qdrant_client.models import Distance, VectorParams, PointStruct
+from src.core.models import get_embeddings
 import os
-
-from src.config import FAISS_INDEX_DIR, DATA_DIR
 
 QDRANT_URL = os.getenv("QDRANT_URL")
 QDRANT_API_KEY = os.getenv("QDRANT_API_KEY")
+COLLECTION_NAME = "enterprise_documents"
 
-client = QdrantClient(url=QDRANT_URL, api_key=QDRANT_API_KEY)
+def get_qdrant_client() -> QdrantClient:
+    return QdrantClient(url=QDRANT_URL, api_key=QDRANT_API_KEY)
 
-def calculate_file_hash(file_bytes: bytes) -> str:
-    return hashlib.sha256(file_bytes).hexdigest()
+def ensure_collection_exists(client: QdrantClient, vector_size: int = 384):
+    collections = [c.name for c in client.get_collections().collections]
+    if COLLECTION_NAME not in collections:
+        client.create_collection(
+            collection_name=COLLECTION_NAME,
+            vectors_config=VectorParams(size=vector_size, distance=Distance.COSINE)
+        )
 
-def load_document_into_vectorstore(file_path: Path):
-    with open(file_path, "rb") as f:
-        file_bytes = f.read()
-    file_hash = calculate_file_hash(file_bytes)
+def process_pdf_in_memory(file_bytes: bytes, filename: str) -> Tuple[List[Document], str]:
+    """Extracts text and chunks directly from memory without saving to disk."""
+    doc_hash = hashlib.sha256(file_bytes).hexdigest()
+    reader = PdfReader(io.BytesIO(file_bytes))
+    
+    documents = []
+    for page_idx, page in enumerate(reader.pages):
+        text = page.extract_text() or ""
+        if text.strip():
+            documents.append(
+                Document(
+                    page_content=text,
+                    metadata={
+                        "doc_name": filename,
+                        "doc_hash": doc_hash,
+                        "page_number": page_idx + 1
+                    }
+                )
+            )
 
-    file_extension = file_path.suffix.lower()
-    if file_extension == ".pdf":
-        loader = PyPDFLoader(str(file_path))
-    elif file_extension == ".txt":
-        loader = TextLoader(str(file_path), encoding="utf-8", autodetect_encoding=True)
-    else:
-        raise ValueError(f"Unsupported file type: {file_extension}")
+    splitter = RecursiveCharacterTextSplitter(chunk_size=700, chunk_overlap=120)
+    chunks = splitter.split_documents(documents)
+    
+    # Store token estimate in metadata
+    for chunk in chunks:
+        chunk.metadata["token_count"] = len(chunk.page_content.split())
 
-    documents = loader.load()
-    text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=150)
-    chunks = text_splitter.split_documents(documents)
+    return chunks, doc_hash
 
-    for i, chunk in enumerate(chunks):
-        chunk.metadata["source"] = file_path.name
-        chunk.metadata["chunk_index"] = i
-        if "page" in chunk.metadata:
-            chunk.metadata["page_number"] = chunk.metadata["page"] + 1
+def index_chunks_to_qdrant(chunks: List[Document], doc_hash: str, filename: str) -> int:
+    """Stores vector embeddings along with chunk text and metadata directly inside Qdrant."""
+    if not chunks:
+        return 0
 
-    embeddings = get_embeddings()
-    vectorstore = FAISS.from_documents(chunks, embeddings)
-    vectorstore.save_local(str(FAISS_INDEX_DIR))
+    client = get_qdrant_client()
+    embeddings_model = get_embeddings()
+    
+    texts = [c.page_content for c in chunks]
+    vectors = embeddings_model.embed_documents(texts)
+    
+    ensure_collection_exists(client, vector_size=len(vectors[0]))
+    
+    points = []
+    for idx, (chunk, vector) in enumerate(zip(chunks, vectors)):
+        # Deterministic UUID per chunk
+        point_id = hashlib.md5(f"{doc_hash}_{idx}".encode()).hexdigest()
+        payload = {
+            "page_content": chunk.page_content,
+            "doc_name": filename,
+            "doc_hash": doc_hash,
+            "page_number": chunk.metadata.get("page_number", 1),
+            "token_count": chunk.metadata.get("token_count", 0),
+            "chunk_index": idx
+        }
+        points.append(PointStruct(id=point_id, vector=vector, payload=payload))
 
-    return vectorstore, chunks, file_path.name, file_hash
+    # Upsert in batches of 100
+    batch_size = 100
+    for i in range(0, len(points), batch_size):
+        client.upsert(collection_name=COLLECTION_NAME, points=points[i:i + batch_size])
 
-def chunk_document(file_obj):
-    file_name = file_obj.name
-    file_path = Path(DATA_DIR) / file_name
-    file_extension = file_path.suffix.lower()
-    if file_extension == ".pdf":
-        loader = PyPDFLoader(str(file_path))
-    elif file_extension == ".txt":
-        loader = TextLoader(str(file_path), encoding="utf-8", autodetect_encoding=True)
-    else:
-        raise ValueError(f"Unsupported file type: {file_extension}")
-
-    documents = loader.load()
-    text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=150)
-    chunks = text_splitter.split_documents(documents)
-
-    for i, chunk in enumerate(chunks):
-        chunk.metadata["source"] = file_path.name
-        chunk.metadata["chunk_index"] = i
-        if "page" in chunk.metadata:
-            chunk.metadata["page_number"] = chunk.metadata["page"] + 1
-
-    return chunks
-
-def save_and_build_vectorstore(file_obj, chunks=None, embeddings=None):
-    file_bytes = file_obj.getvalue() if hasattr(file_obj, "getvalue") else file_obj.read()
-    file_hash = calculate_file_hash(file_bytes)
-    file_name = file_obj.name
-
-    if embeddings is None:
-        from src.core.models import get_embeddings
-        embeddings = get_embeddings()
-
-    if chunks is None:
-        # Load and chunk the document directly from file_obj
-        chunks = chunk_document(file_obj)
-    # Collection partitioned or tagged by document hash
-    qdrant_vs = QdrantVectorStore.from_documents(
-        documents=chunks,
-        embedding=embeddings,
-        url=QDRANT_URL,
-        api_key=QDRANT_API_KEY,
-        collection_name="enterprise_documents",
-        prefer_grpc=False
-    )
-    return qdrant_vs, chunks, file_name, file_hash
+    return len(chunks)
