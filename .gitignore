@@ -88,3 +88,195 @@ chroma_data/
 data/
 faiss_index/
 faiss_query_index/
+
+# ignore agent related
+.claude\
+.agents\
+_brag-temp/
+brag-output/
+
+================================
+1. Backend
+================================
+
+# ============================================================
+# Python & Bytecode
+# ============================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# ============================================================
+# Virtual Environments
+# ============================================================
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# ============================================================
+# Environment Variables & Secrets
+# ============================================================
+.env
+.env.*
+!.env.example
+
+# ============================================================
+# RAG Runtime Data & Vector Indices
+# (Keep persistent directories out of Git; managed via volumes)
+# ============================================================
+data/
+faiss_index/
+faiss_query_cache/
+*.faiss
+*.pkl
+query_payloads.json
+
+# If you want to keep the folders tracked but ignore their contents:
+# data/*
+# !data/.gitkeep
+# faiss_index/*
+# !faiss_index/.gitkeep
+# faiss_query_cache/*
+# !faiss_query_cache/.gitkeep
+
+# ============================================================
+# Testing, Coverage & Evaluation (DeepEval / PyTest)
+# ============================================================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+.deepeval/
+.deepeval-cache/
+
+# ============================================================
+# Model Checkpoints & Hugging Face Cache
+# ============================================================
+models/
+.cache/
+huggingface/
+checkpoints/
+
+# ============================================================
+# IDEs & System Files
+# ============================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+================================
+2. frontend
+================================
+
+# ============================================================
+# Dependencies
+# ============================================================
+/node_modules
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# ============================================================
+# Next.js Build Output & Cache
+# ============================================================
+/.next/
+/out/
+/build
+/dist
+
+# ============================================================
+# Environment Variables & Secrets
+# ============================================================
+.env*.local
+.env
+.env.production
+.env.staging
+!.env.example
+
+# ============================================================
+# Debug Logs
+# ============================================================
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ============================================================
+# Testing & Coverage
+# ============================================================
+/coverage
+/.nyc_output
+
+# ============================================================
+# TypeScript & Next.js Telemetry
+# ============================================================
+*.tsbuildinfo
+next-env.d.ts
+
+# ============================================================
+# IDEs & Operating System
+# ============================================================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+.DS_Store
+*.pem
+Thumbs.db
+
+================================
+3. Root
+================================
+
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+*.env.local
+
+# Virtual Environments & Packages
+.venv/
+venv/
+node_modules/
+
+# Python Runtime & Caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.deepeval/
+
+# Next.js Build Artifacts
+.next/
+out/
+dist/
+build/
+
+# RAG Persistent Stores
+backend/data/*
+!backend/data/.gitkeep
+backend/faiss_index/*
+!backend/faiss_index/.gitkeep
+backend/faiss_query_cache/*
+!backend/faiss_query_cache/.gitkeep
+
+# System & Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# skills
+_brag-tmp/
+.cursor/
+.claude/

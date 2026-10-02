@@ -1,0 +1,40 @@
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: doc_ai_backend
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    env_file:
+      - ./backend/.env
+    volumes:
+      - ./backend/data:/app/data
+      - ./backend/faiss_index:/app/faiss_index
+      - ./backend/faiss_query_cache:/app/faiss_query_cache
+      - hf_cache:/app/cache/huggingface
+    networks:
+      - doc_ai_network
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+      args:
+        - NEXT_PUBLIC_API_URL=http://localhost:8000
+    container_name: doc_ai_frontend
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+    networks:
+      - doc_ai_network
+
+networks:
+  doc_ai_network:
+    driver: bridge
+
+volumes:
+  hf_cache:

@@ -1,0 +1,30 @@
+# Web Framework & Server
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+python-multipart>=0.0.9
+pydantic>=2.8.0
+python-dotenv>=1.0.1
+
+# LLM & Core RAG Pipeline
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-community>=0.3.0
+langchain-classic>=0.1.0
+langchain-groq>=0.2.0
+langchain-huggingface>=0.1.0
+langchain-text-splitters>=0.3.0
+
+# Embeddings, Vector Storage & Hybrid Search
+torch>=2.4.0
+torchvision>=0.19.0
+sentence-transformers>=3.1.0
+faiss-cpu>=1.8.0.post1
+rank-bm25>=0.2.2
+
+# Document Ingestion & Parsers
+pypdf>=4.3.0
+
+# Automated Evaluation Layer
+deepeval>=1.4.0
+pytest>=8.3.0
+pytest-asyncio>=0.24.0
